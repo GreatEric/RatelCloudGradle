@@ -1,0 +1,39 @@
+.flag{
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+}
+.bg {
+  height: 100vh;
+  min-height: 100vh;
+  background: url("../../../assets/imgs/bg/bg1.png") center center/cover no-repeat local;
+}
+.topbar{
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
+  text-align: center;
+  padding:0;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+.topbar .container{
+  color: #ffffff;
+  display: flex;
+  flex-flow: row;
+}
+.topbar .container span {
+  font-size: 14px;
+  padding: 20px 20px;
+  color: #fff;
+  line-height: 1em;
+  border-right: 1px solid rgba(255, 255, 255, .1);
+}
+.topbar .container span .zmdi{
+  margin-right: 10px;
+}
+.copyright{
+  color: #ffffff !important;
+}
+.copyright a{
+  color: #ffffff !important;
+}

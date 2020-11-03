@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.ratel.common.feign.RibbonAutoConfigure,\
+com.ratel.common.feign.FeignAutoConfigure,\
+com.ratel.common.feign.RestTemplateAutoConfigure,\
+com.ratel.common.feign.filters.LbIsolationFilter,\
+com.ratel.common.feign.LbIsolationAutoConfigure

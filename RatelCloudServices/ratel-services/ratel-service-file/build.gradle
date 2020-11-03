@@ -1,0 +1,4 @@
+dependencies {
+    api project(':ratel-services-api:ratel-service-file-api')
+    api group: 'com.aliyun.oss', name: 'aliyun-sdk-oss', version: aliyunSdkOssVersion
+}

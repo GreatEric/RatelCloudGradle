@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ratel.order.mappers.OmsOrderRefundReasonMapper">
+    <resultMap id="omsOrderRefundReasonMap" type="com.ratel.order.api.dtos.OmsOrderRefundReasonDTO">
+    <id column="id" property="id" />
+    <id column="reason_title" property="reasonTitle" />
+    <id column="seq" property="seq" />
+    <id column="enable_status" property="enableStatus" />
+    <id column="create_time" property="createTime" />
+    <id column="modify_time" property="modifyTime" />
+    </resultMap>
+
+    <sql id="omsOrderRefundReasonSelectSql">
+    oms.id as id,
+    oms.reason_title as reason_title,
+    oms.seq as seq,
+    oms.enable_status as enable_status,
+    oms.create_time as create_time,
+    oms.modify_time as modify_time
+    </sql>
+
+    <select id="pageAllOmsOrderRefundReasons" resultMap="omsOrderRefundReasonMap">
+    select
+    <include refid="omsOrderRefundReasonSelectSql"></include>
+    from oms_order_refund_reason oms
+    ${ew.customSqlSegment}
+    </select>
+</mapper>

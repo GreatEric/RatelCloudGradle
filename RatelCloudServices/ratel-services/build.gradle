@@ -1,0 +1,9 @@
+plugins {
+    id 'org.springframework.boot' version '2.3.2.RELEASE'
+}
+subprojects {
+    dependencies {
+        api project(':ratel-nacos')
+        api project(':ratel-commons:ratel-common-db')
+    }
+}

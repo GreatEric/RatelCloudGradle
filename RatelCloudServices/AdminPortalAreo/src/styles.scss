@@ -1,0 +1,193 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'src/assets/scss/main.scss';
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+/*覆盖input border样式: start*/
+.ant-input-affix-wrapper {
+  color: rgba(0,0,0,.65);
+  font-size: 14px;
+  background-color: #fff;
+  border: 1px solid #bbbbbb !important;
+  border-radius: 0px;
+  transition: all .5s;
+}
+.ant-input-affix-wrapper:hover{
+  border: 1px solid #222222 !important;
+}
+.ant-input-focused,.ant-input:focus{
+  border-color:  #222222 !important;
+  box-shadow: none !important;
+}
+.ant-input:hover{
+  border-color: #222222 !important;
+}
+.cdk-focused{
+  box-shadow: 0 0 0 0px  rgba(34,34,34,0.5)!important;
+}
+/*覆盖input border样式: end*/
+
+/*覆盖select border样式: start*/
+.ant-select{
+  border: 1px solid #bbbbbb !important;
+  outline: none !important;
+  box-shadow: none !important;
+  border-radius: 0px;
+  transition: all .5s;
+}
+.ant-select:hover{
+  border: 1px solid #222222 !important;
+}
+nz-select-top-control{
+  border: 0 !important;
+}
+nz-select-top-control:focus{
+  outline: none !important;
+  border: 0 !important;
+}
+.ant-select-focused.ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+  border: 0px solid #bbbbbb !important;
+  border-right-width: 1px!important;
+  outline: 0;
+  box-shadow: none !important;
+}
+/*覆盖select border样式: end*/
+
+.btn-primary{
+  border-radius: 0px !important;
+}
+.cdk-virtual-scroll-orientation-vertical{
+  overflow-y: scroll;
+}
+.cdk-virtual-scroll-orientation-vertical::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1) !important;
+  border-radius: 0px !important;
+  background-color: #F5F5F5 !important;
+}
+.cdk-virtual-scroll-orientation-vertical::-webkit-scrollbar {
+  width: 0px !important;
+  background-color: #F5F5F5 !important;
+}
+.cdk-virtual-scroll-orientation-vertical::-webkit-scrollbar-thumb {
+  border-radius: 0px !important;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.1) !important;
+  background-color: #F5F5F5 !important;
+}
+.cdk-virtual-scroll-orientation-vertical::-webkit-scrollbar-thumb:hover {background-color:rgba(19,21,26,0.5) !important;}
+.cdk-virtual-scroll-orientation-vertical::-webkit-scrollbar-thumb:active {background-color:rgba(19,21,26,0.5) !important;}
+
+
+.ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab {
+  background: rgba(56,56,56,1.0);
+  border: 1px solid rgba(56,56,56,1.0);
+  border-radius: 5px 5px 0 0;
+  transition: all .3s cubic-bezier(.645, .045, .355, 1);
+}
+
+.ant-tabs-nav-container {
+  margin-bottom: 1px !important;
+}
+
+nz-tabs-nav, nz-tabset {
+   display: inline;
+}
+
+.ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab-active {
+  color: rgb(255,193,7) !important;
+  //background: #fff;
+  //border-color: #f0f0f0;
+  //border-bottom: 1px solid #fff;
+}
+//.ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab-active:hover {
+//  color: rgb(4,190,91) !important;
+//  //background: #fff;
+//  //border-color: #f0f0f0;
+//  //border-bottom: 1px solid #fff;
+//}
+
+.ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab .ant-tabs-close-x {
+  width: 16px;
+  height: 14px;
+  margin-right: -5px;
+  margin-left: 3px;
+  overflow: hidden;
+  color: #fff;
+  font-size: 12px;
+  vertical-align: middle;
+  transition: all .3s;
+}
+
+.ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab {
+  color: #fff;
+  background: #313131;
+  border: 1px solid #313131;
+  border-radius: 5px 5px 0 0;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab:hover{
+  color: rgb(255,193,7) !important;
+}
+
+.ant-tree {
+  margin: 0;
+  background: #313131 !important;
+  border-radius: 2px;
+  transition: background-color .3s;
+}
+
+/*.ant-tree, .ant-tree-checkbox-group {
+  box-sizing: border-box;
+  padding: 0;
+  color: rgba(255,255,255,1);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: 'tnum';
+}*/
+
+.ant-tree .ant-tree-treenode {
+  display: flex;
+  align-items: center;
+  padding: 0 0 4px;
+  outline: 0;
+  color: rgba(255,255,255,1);
+  text-align: center;
+}
+
+.ant-tree .ant-tree-treenode:hover {
+  color: #ffc107;
+}
+
+
+.ant-tree .ant-tree-switcher {
+  flex: none;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.ant-tree .ant-tree-switcher .ant-select-tree-switcher-icon, .ant-tree .ant-tree-switcher .ant-tree-switcher-icon {
+  font-size: 14px;
+  display: inline-block;
+  font-weight: 700;
+}
+
+.ant-tree .ant-tree-node-content-wrapper:hover {
+  background-color: transparent !important;
+}
+
+.ant-tree .ant-tree-node-content-wrapper.ant-tree-node-selected {
+  background-color: transparent !important;
+}

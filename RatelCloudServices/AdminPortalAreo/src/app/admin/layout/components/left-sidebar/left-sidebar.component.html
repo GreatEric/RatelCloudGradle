@@ -1,0 +1,63 @@
+<aside id="leftsidebar" class="sidebar">
+    <div class="navbar-brand">
+        <button class="btn-menu ls-toggle-btn" type="button" (click)="toggleSmallMenu()"><i class="zmdi zmdi-menu"></i>
+        </button>
+        <a href="index.html">
+            <img src="{{darkLayout ? 'assets/imgs/logo-darktheme.svg':'assets/imgs/logo-lighttheme.svg' }}" width="25"
+                 alt="Aero"><span class="m-l-10">MangoCloud</span>
+        </a>
+    </div>
+    <div class="menu">
+        <ul class="list">
+            <!--************************************************************************************************************************************************-->
+            <!--固定菜单- 用户信息: start -->
+            <li>
+                <div class="user-info">
+                    <a class="image waves-effect waves-block" href="profile.html"><img
+                            src="assets/images/profile_av.jpg" alt="User"></a>
+                    <div class="detail">
+                        <h4>Michael</h4>
+                        <small>Super Admin</small>
+                    </div>
+                </div>
+            </li>
+            <!--固定菜单- 用户信息: end -->
+            <!--************************************************************************************************************************************************-->
+
+            <!--************************************************************************************************************************************************-->
+            <!--固定菜单- dashboard: start -->
+            <li class="active open">
+                <a routerLink="index" class="toggled waves-effect waves-block" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+                    <i class="zmdi zmdi-home"></i><span>Dashboard</span>
+                </a>
+            </li>
+            <!--固定菜单- dashboard: end -->
+            <!--************************************************************************************************************************************************-->
+
+            <!--************************************************************************************************************************************************-->
+            <!-- 动态菜单: start -->
+            <li class="open_top" *ngFor="let item of sysCategoryList">
+                <a href="javascript:void(0);" class="menu-toggle waves-effect waves-block" [ngClass]="{'toggled':activeMenu == item.mname}" (click)="openItem(item.mname)">
+                    <i class="zmdi zmdi-collection-text"></i><span>{{item.mname}}</span></a>
+                <ul class="ml-menu" [ngClass]="{'d-block':activeMenu == item.mname}" *ngIf="item.list && item.list.length >0">
+                    <li *ngFor="let menu of item.list"><a [routerLink]="menu.murl" class=" waves-effect waves-block">{{menu.mname}}</a></li>
+                </ul>
+            </li>
+            <!-- 动态菜单: end -->
+            <!--************************************************************************************************************************************************-->
+
+            <!--************************************************************************************************************************************************-->
+            <!-- 固定菜单 - 所有的doc文档地址: start -->
+            <li class="open_top">
+                <a href="javascript:void(0);" class="menu-toggle waves-effect waves-block" [ngClass]="{'toggled':activeMenu == 'sample'}" (click)="openItem('sample')">
+                <i class="zmdi zmdi-collection-text"></i><span>Docs</span></a>
+                <ul class="ml-menu" [ngClass]="{'d-block':activeMenu == 'sample'}">
+                    <li><a routerLink="http://172.17.189.113:8881/doc.html" class=" waves-effect waves-block" target="_blank">Swagger</a></li>
+                    <li><a routerLink="http://172.17.189.113:8881/doc.html" class=" waves-effect waves-block" target="_blank">Druid</a></li>
+                </ul>
+            </li>
+            <!-- 固定菜单 - 所有的doc文档地址: end -->
+            <!--************************************************************************************************************************************************-->
+        </ul>
+    </div>
+</aside>

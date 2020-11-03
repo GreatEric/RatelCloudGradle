@@ -1,0 +1,8 @@
+dependencies {
+    api project(':ratel-commons:ratel-common-core')
+    optional 'com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery'
+    api 'org.springframework.cloud:spring-cloud-starter-openfeign'
+    api 'org.springframework.cloud:spring-cloud-starter-netflix-ribbon'
+    api 'org.springframework.boot:spring-boot-configuration-processor'
+    annotationProcessor "org.springframework.boot:spring-boot-autoconfigure-processor"
+}

@@ -1,0 +1,26 @@
+com/ratel/common/feign/FeignAutoConfigure.java
+ com.ratel.common.feign.FeignAutoConfigure
+com/ratel/common/feign/configs/RestTemplateProperties.java
+ com.ratel.common.feign.configs.RestTemplateProperties
+com/ratel/common/feign/configs/FeignHttpInterceptorConfig.java
+ com.ratel.common.feign.configs.FeignHttpInterceptorConfig
+com/ratel/common/feign/filters/LbIsolationFilter.java
+ com.ratel.common.feign.filters.LbIsolationFilter
+org/springframework/cloud/netflix/ribbon/DefaultPropertiesFactory.java
+ org.springframework.cloud.netflix.ribbon.DefaultPropertiesFactory
+com/ratel/common/feign/rules/VersionIsolationRule.java
+ com.ratel.common.feign.rules.VersionIsolationRule
+com/ratel/common/feign/configs/RuleConfigure.java
+ com.ratel.common.feign.configs.RuleConfigure
+com/ratel/common/feign/RibbonAutoConfigure.java
+ com.ratel.common.feign.RibbonAutoConfigure
+com/ratel/common/feign/RestTemplateAutoConfigure.java
+ com.ratel.common.feign.RestTemplateAutoConfigure
+com/ratel/common/feign/annotations/EnableBaseFeignInterceptor.java
+ com.ratel.common.feign.annotations.EnableBaseFeignInterceptor
+com/ratel/common/feign/configs/FeignInterceptorConfig.java
+ com.ratel.common.feign.configs.FeignInterceptorConfig
+com/ratel/common/feign/LbIsolationAutoConfigure.java
+ com.ratel.common.feign.LbIsolationAutoConfigure
+com/ratel/common/feign/annotations/EnableFeignInterceptor.java
+ com.ratel.common.feign.annotations.EnableFeignInterceptor

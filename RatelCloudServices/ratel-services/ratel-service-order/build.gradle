@@ -1,0 +1,6 @@
+dependencies {
+    implementation group: 'com.baomidou', name: 'mybatis-plus', version: mybatisPlusVerison
+    implementation group: 'com.baomidou', name: 'mybatis-plus-extension', version: mybatisPlusVerison
+    implementation project(':ratel-services-api:ratel-service-order-api')
+    implementation project(':ratel-middlewares:ratel-middleware-rabbitmq')
+}

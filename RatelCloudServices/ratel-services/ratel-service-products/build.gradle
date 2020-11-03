@@ -1,0 +1,3 @@
+dependencies {
+    api project(':ratel-services-api:ratel-service-products-api')
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ratel.order.mappers.OmsOrderSettingMapper">
+    <resultMap id="omsOrderSettingMap" type="com.ratel.order.api.dtos.OmsOrderSettingDTO">
+    <id column="id" property="id" />
+    <id column="flash_order_overtime" property="flashOrderOvertime" />
+    <id column="normal_order_overtime" property="normalOrderOvertime" />
+    <id column="confirm_overtime" property="confirmOvertime" />
+    <id column="finish_overtime" property="finishOvertime" />
+    <id column="comment_overtime" property="commentOvertime" />
+    <id column="customer_level" property="customerLevel" />
+    <id column="create_time" property="createTime" />
+    <id column="modify_time" property="modifyTime" />
+    </resultMap>
+
+    <sql id="omsOrderSettingSelectSql">
+    oms.id as id,
+    oms.flash_order_overtime as flash_order_overtime,
+    oms.normal_order_overtime as normal_order_overtime,
+    oms.confirm_overtime as confirm_overtime,
+    oms.finish_overtime as finish_overtime,
+    oms.comment_overtime as comment_overtime,
+    oms.customer_level as customer_level,
+    oms.create_time as create_time,
+    oms.modify_time as modify_time
+    </sql>
+
+    <select id="pageAllOmsOrderSettings" resultMap="omsOrderSettingMap">
+    select
+    <include refid="omsOrderSettingSelectSql"></include>
+    from oms_order_setting oms
+    ${ew.customSqlSegment}
+    </select>
+</mapper>

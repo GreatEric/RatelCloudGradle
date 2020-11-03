@@ -1,0 +1,48 @@
+ratel:
+  ribbon:
+    isolation:
+      enabled: false
+
+##### spring-boot-actuator配置
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: *
+#  endpoint:
+#    health:
+#      show-details: always
+
+spring:
+  profiles:
+    active: ${active}
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: product_center
+          uri: lb://ratel-service-product
+          predicates:
+            #- Path=/pmsBrand/pageAll
+            - Path=/pmsBrand/info/**,/pmsBrand/pageAll
+            - After=2020-10-17T11:34:17.617+11:00[Australia/Melbourne]
+            - Header=token, \d+
+            #- Cookie=username, eric
+            #- Host=**.ratel.com,ubuntu
+            - Method=GET,POST
+        - id: order_center
+          uri: lb://ratel-service-order
+          predicates:
+            - Path=/omsOrderItem/pageAll
+            - Between=2020-10-17T11:34:17.617+11:00[Australia/Melbourne], 2020-10-17T11:45:17.617+11:00[Australia/Melbourne]
+        - id: file_center
+          uri: lb://ratel-service-file
+          predicates:
+            - Path=/fmsOss/upload
+            - Before=2020-10-17T11:34:17.617+11:00[Australia/Melbourne]
+        - id: composition_ecommerce
+          uri: lb://ratel-composition-ecommerce
+          predicates:
+            - Path=/ecommerce/getOrderItems

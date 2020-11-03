@@ -1,0 +1,5 @@
+org.springframework.context.ApplicationContextInitializer=\
+com.ratel.common.core.configs.BannerInitializer
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.ratel.common.core.lock.LockAspect

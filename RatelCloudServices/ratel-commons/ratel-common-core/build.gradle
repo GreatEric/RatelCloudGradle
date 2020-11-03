@@ -1,0 +1,48 @@
+dependencies {
+    /******************* springboot依赖: start *******************/
+    optional 'org.springframework.boot:spring-boot-starter-web'
+    api 'org.springframework.boot:spring-boot-starter'
+    api 'org.springframework.boot:spring-boot-starter-actuator'
+    api 'org.springframework.boot:spring-boot-starter-validation'
+    api 'org.springframework.boot:spring-boot-starter-aop'
+    api 'org.springframework.boot:spring-boot-configuration-processor'
+    api 'org.springframework.boot:spring-boot-starter-mail'
+    /******************* springboot依赖: end *******************/
+
+    /******************* springcloud依赖: start *******************/
+    api 'org.springframework.cloud:spring-cloud-context'
+    /******************* springcloud依赖: end *******************/
+
+    api group: 'com.alibaba', name: 'transmittable-thread-local', version: transmittableVersion
+
+    api group: 'com.baomidou', name: 'mybatis-plus', version: mybatisPlusVerison
+    api group: 'com.baomidou', name: 'mybatis-plus-extension', version: mybatisPlusVerison
+
+    api group: 'com.nepxion', name: 'banner', version: nepxionVersion
+    api group: 'cn.hutool', name: 'hutool-all', version: hutoolVersion
+
+    compile group: 'javax.servlet', name: 'javax.servlet-api', version: servletApiVersion
+    api group: 'javax.persistence', name: 'persistence-api', version: persistenceapiVersion
+    api group: 'org.apache.httpcomponents', name: 'httpclient', version: httpClientVersion
+
+    api group: 'org.hibernate.validator', name: 'hibernate-validator', version: hibernateValidatorVersion
+    api group: 'javax.validation', name: 'validation-api', version: validationApiVersion
+
+    /******************* 电话校验工具类: start ******************************/
+    api group: 'com.googlecode.libphonenumber', name: 'libphonenumber', version: libphonenumberVersion
+    /******************* 电话校验工具类: end ******************************/
+
+    /******************* 二维码，条码相关工具类: start ******************************/
+    /*zxing qrcode dependencies*/
+    api group: 'com.google.zxing', name: 'core', version: zxingVersion
+    api group: 'com.google.zxing', name: 'javase', version: zxingVersion
+
+    /******************* 二维码，条码相关工具类: end ******************************/
+
+    /******************* http请求工具类: start ******************************/
+    /*retrofit2 dependencies*/
+    api group: 'com.squareup.retrofit2', name: 'retrofit', version: retrofit2Version
+    api group: 'com.squareup.retrofit2', name: 'converter-gson', version: retrofit2Version
+    api group: 'com.squareup.okhttp3', name: 'logging-interceptor', version: okhttp3LoggingInterceptorVersion
+    /******************* http请求工具类: end ******************************/
+}

@@ -1,0 +1,6 @@
+com/ratel/common/db/configs/DataMetaObjectHandler.java
+ com.ratel.common.db.configs.DataMetaObjectHandler
+com/ratel/common/db/properties/MybatisPlusAutoFillProperties.java
+ com.ratel.common.db.properties.MybatisPlusAutoFillProperties
+com/ratel/common/db/configs/MybatisPlusAutoConfigure.java
+ com.ratel.common.db.configs.MybatisPlusAutoConfigure

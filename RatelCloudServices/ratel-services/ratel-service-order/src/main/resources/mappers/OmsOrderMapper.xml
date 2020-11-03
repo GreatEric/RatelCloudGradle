@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ratel.order.mappers.OmsOrderMapper">
+    <resultMap id="omsOrderMap" type="com.ratel.order.api.dtos.OmsOrderDTO">
+    <id column="id" property="id" />
+    <id column="customer_id" property="customerId" />
+    <id column="customer_name" property="customerName" />
+    <id column="bussiness_id" property="bussinessId" />
+    <id column="order_sn" property="orderSn" />
+    <id column="total_amt" property="totalAmt" />
+    <id column="pay_amt" property="payAmt" />
+    <id column="freight_amt" property="freightAmt" />
+    <id column="promotion_amt" property="promotionAmt" />
+    <id column="integration_amt" property="integrationAmt" />
+    <id column="discount_amt" property="discountAmt" />
+    <id column="coupon_amt" property="couponAmt" />
+    <id column="use_integration" property="useIntegration" />
+    <id column="coupon_id" property="couponId" />
+    <id column="integration" property="integration" />
+    <id column="membership_growth" property="membershipGrowth" />
+    <id column="delivery_company" property="deliveryCompany" />
+    <id column="delivery_sn" property="deliverySn" />
+    <id column="auto_confirm_day" property="autoConfirmDay" />
+    <id column="invoice_type" property="invoiceType" />
+    <id column="invoice_header" property="invoiceHeader" />
+    <id column="invoice_content" property="invoiceContent" />
+    <id column="invoice_receiver_phone" property="invoiceReceiverPhone" />
+    <id column="invoice_receiver_email" property="invoiceReceiverEmail" />
+    <id column="receiver_name" property="receiverName" />
+    <id column="receiver_phone" property="receiverPhone" />
+    <id column="receiver_post_code" property="receiverPostCode" />
+    <id column="receiver_province" property="receiverProvince" />
+    <id column="receiver_city" property="receiverCity" />
+    <id column="receiver_region" property="receiverRegion" />
+    <id column="receiver_detail_address" property="receiverDetailAddress" />
+    <id column="remark" property="remark" />
+    <id column="payment_time" property="paymentTime" />
+    <id column="delivery_time" property="deliveryTime" />
+    <id column="receive_time" property="receiveTime" />
+    <id column="comment_time" property="commentTime" />
+    <id column="payment_method" property="paymentMethod" />
+    <id column="order_source" property="orderSource" />
+    <id column="confirm_status" property="confirmStatus" />
+    <id column="delete_status" property="deleteStatus" />
+    <id column="order_status" property="orderStatus" />
+    <id column="create_time" property="createTime" />
+    <id column="modify_time" property="modifyTime" />
+    </resultMap>
+
+    <sql id="omsOrderSelectSql">
+    oms.id as id,
+    oms.customer_id as customer_id,
+    oms.customer_name as customer_name,
+    oms.bussiness_id as bussiness_id,
+    oms.order_sn as order_sn,
+    oms.total_amt as total_amt,
+    oms.pay_amt as pay_amt,
+    oms.freight_amt as freight_amt,
+    oms.promotion_amt as promotion_amt,
+    oms.integration_amt as integration_amt,
+    oms.discount_amt as discount_amt,
+    oms.coupon_amt as coupon_amt,
+    oms.use_integration as use_integration,
+    oms.coupon_id as coupon_id,
+    oms.integration as integration,
+    oms.membership_growth as membership_growth,
+    oms.delivery_company as delivery_company,
+    oms.delivery_sn as delivery_sn,
+    oms.auto_confirm_day as auto_confirm_day,
+    oms.invoice_type as invoice_type,
+    oms.invoice_header as invoice_header,
+    oms.invoice_content as invoice_content,
+    oms.invoice_receiver_phone as invoice_receiver_phone,
+    oms.invoice_receiver_email as invoice_receiver_email,
+    oms.receiver_name as receiver_name,
+    oms.receiver_phone as receiver_phone,
+    oms.receiver_post_code as receiver_post_code,
+    oms.receiver_province as receiver_province,
+    oms.receiver_city as receiver_city,
+    oms.receiver_region as receiver_region,
+    oms.receiver_detail_address as receiver_detail_address,
+    oms.remark as remark,
+    oms.payment_time as payment_time,
+    oms.delivery_time as delivery_time,
+    oms.receive_time as receive_time,
+    oms.comment_time as comment_time,
+    oms.payment_method as payment_method,
+    oms.order_source as order_source,
+    oms.confirm_status as confirm_status,
+    oms.delete_status as delete_status,
+    oms.order_status as order_status,
+    oms.create_time as create_time,
+    oms.modify_time as modify_time
+    </sql>
+
+    <select id="pageAllOmsOrders" resultMap="omsOrderMap">
+    select
+    <include refid="omsOrderSelectSql"></include>
+    from oms_order oms
+    ${ew.customSqlSegment}
+    </select>
+</mapper>

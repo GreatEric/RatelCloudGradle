@@ -1,0 +1,14 @@
+dependencies {
+    //implementation project(':ratel-commons:ratel-common-core')
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    implementation 'org.springframework.boot:spring-boot-starter-aop'
+    implementation 'org.springframework.boot:spring-boot-configuration-processor'
+    implementation 'org.springframework.boot:spring-boot-starter-mail'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    //implementation group: 'javax.persistence', name: 'persistence-api', version: persistenceapiVersion
+    //implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+    implementation group: 'mysql', name: 'mysql-connector-java', version: mysqlVersion
+    implementation group: 'org.freemarker', name: 'freemarker', version: freemarkerVersion
+}

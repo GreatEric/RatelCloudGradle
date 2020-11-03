@@ -1,0 +1,4 @@
+com/ratel/composition/ecommerce/CompositionEcommerceApp.java
+ com.ratel.composition.ecommerce.CompositionEcommerceApp
+com/ratel/composition/ecommerce/controllers/MallController.java
+ com.ratel.composition.ecommerce.controllers.MallController

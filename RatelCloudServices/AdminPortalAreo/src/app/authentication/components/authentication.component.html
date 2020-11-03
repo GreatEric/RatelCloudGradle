@@ -1,0 +1,107 @@
+<div class="authentication bg">
+    <ngx-ui-loader [loaderId]="'authentication'"></ngx-ui-loader>
+    <div class="topbar">
+        <div class="container">
+            <span><i class="zmdi zmdi-phone-in-talk"></i>+0452667430</span>
+            <span><i class="zmdi zmdi-email"></i> mangotech@gmail.com</span>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-sm-12">
+                <div class="card auth_form">
+                    <!--<div class="header">-->
+                        <!--<img class="logo" src="assets/imgs/logo.svg" alt="">-->
+                        <!--<h5>Log in</h5>-->
+                    <!--</div>-->
+                    <div class="header" id="particle-slider">
+                        <div class="slides">
+                            <div class="slide" data-src="data:image/png;base64,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">
+                            </div>
+                            <h3>mango cloud</h3>
+                        </div>
+                        <!--<canvas class="draw"></canvas>-->
+                        <div>
+                            <img class="logo" src="assets/imgs/logo-lighttheme.svg" alt="" style="width: 200px;">
+                        </div>
+                    </div>
+                    <div class="body">
+                        <div class="input-group mb-3">
+                            <!--<input type="text" class="form-control" placeholder="Username">-->
+                            <!--<div class="input-group-append">-->
+                                <!--<span class="input-group-text"><i class="zmdi zmdi-account-circle"></i></span>-->
+                            <!--</div>-->
+                            <nz-input-group [nzSuffix]="suffixUser" [nzPrefix]="prefixUser" class="m-b-15">
+                                <input type="text"
+                                       nz-input
+                                       nzSize="large"
+                                       [(ngModel)]="userName"
+                                       name="userName"
+                                       placeholder="Enter your username"/>
+                            </nz-input-group>
+                            <ng-template #prefixUser><i nz-icon nzType="user"></i></ng-template>
+                            <ng-template #suffixUser>
+                                <i nz-icon
+                                   nz-tooltip
+                                   class="ant-input-clear-icon"
+                                   nzTheme="fill"
+                                   nzType="close-circle"
+                                   *ngIf="userName"
+                                   (click)="userName = null"></i>
+                            </ng-template>
+                        </div>
+                        <div class="input-group mb-3">
+                            <!--<input type="text" class="form-control" placeholder="Password" [(ngModel)]="password"/>-->
+                            <!--<div class="input-group-append">-->
+                                <!--<span class="input-group-text"><a href="forgot-password.html" class="forgot" title="Forgot Password"><i class="zmdi zmdi-lock"></i></a></span>-->
+                            <!--</div>-->
+                            <nz-input-group [nzPrefix]="prefixPwd" [nzSuffix]="suffixPwd" class="m-b-15">
+                                <input
+                                        nzSize="large"
+                                        [type]="passwordVisible ? 'text' : 'password'"
+                                        nz-input
+                                        placeholder="input password"
+                                        [(ngModel)]="password"/>
+                            </nz-input-group>
+                            <ng-template #prefixPwd><i nz-icon nzType="lock"></i></ng-template>
+
+                            <ng-template #suffixPwd>
+                                <i nz-icon [nzType]="passwordVisible ? 'eye-invisible' : 'eye'" (click)="passwordVisible = !passwordVisible"></i>
+                            </ng-template>
+                        </div>
+                        <div class="input-group mb-3">
+                            <nz-select nzShowSearch nzAllowClear nzPlaceHolder="Select Language" [(ngModel)]="lang" style="width: 100%;">
+                                <nz-option nzCustomContent nzLabel="{{item.country_name}}" nzValue="{{item.locale_id}}" *ngFor="let item of countries">
+                                    <img src="{{item.flag_flat_64}}" class="flag"/>
+                                    <span>{{item.country_name}}</span>
+                                </nz-option>
+                            </nz-select>
+
+                        </div>
+                        <div class="checkbox">
+                            <input id="remember_me" type="checkbox">
+                            <label for="remember_me">Remember Me</label>
+                        </div>
+                        <button class="btn btn-primary btn-block waves-effect waves-light" (click)="captchaValidate()">SIGN IN</button>
+                        <div class="signin_with mt-3">
+                            <p class="mb-0">or Sign Up using</p>
+                            <button class="btn btn-primary btn-icon btn-icon-mini btn-round facebook"><i class="zmdi zmdi-facebook"></i></button>
+                            <button class="btn btn-primary btn-icon btn-icon-mini btn-round twitter"><i class="zmdi zmdi-twitter"></i></button>
+                            <button class="btn btn-primary btn-icon btn-icon-mini btn-round google"><i class="zmdi zmdi-google-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright text-center">
+                    &copy;
+                    <script>document.write(new Date().getFullYear())</script>,
+                    <span>Designed by <a href="https://thememakker.com/" target="_blank">Mangotech Group</a></span>
+                </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+                <div class="card">
+                    <img src="assets/imgs/bg/bg-vec.png" alt="Sign In"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

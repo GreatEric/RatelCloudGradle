@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "ratel.mybatis-plus.auto-fill",
+      "type": "com.ratel.common.db.properties.MybatisPlusAutoFillProperties",
+      "sourceType": "com.ratel.common.db.properties.MybatisPlusAutoFillProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "ratel.mybatis-plus.auto-fill.create-time-field",
+      "type": "java.lang.String",
+      "description": "创建时间字段名",
+      "sourceType": "com.ratel.common.db.properties.MybatisPlusAutoFillProperties",
+      "defaultValue": "createTime"
+    },
+    {
+      "name": "ratel.mybatis-plus.auto-fill.enable-insert-fill",
+      "type": "java.lang.Boolean",
+      "description": "是否开启了插入填充",
+      "sourceType": "com.ratel.common.db.properties.MybatisPlusAutoFillProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "ratel.mybatis-plus.auto-fill.enable-update-fill",
+      "type": "java.lang.Boolean",
+      "description": "是否开启了更新填充",
+      "sourceType": "com.ratel.common.db.properties.MybatisPlusAutoFillProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "ratel.mybatis-plus.auto-fill.enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否开启自动填充字段",
+      "sourceType": "com.ratel.common.db.properties.MybatisPlusAutoFillProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "ratel.mybatis-plus.auto-fill.modify-time-field",
+      "type": "java.lang.String",
+      "description": "更新时间字段名",
+      "sourceType": "com.ratel.common.db.properties.MybatisPlusAutoFillProperties",
+      "defaultValue": "modifyTime"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,6 @@
+com/ratel/product/api/forms/PmsBrandQueryForm.java
+ com.ratel.product.api.forms.PmsBrandQueryForm
+com/ratel/product/api/dtos/PmsBrandDTO.java
+ com.ratel.product.api.dtos.PmsBrandDTO
+com/ratel/product/api/pojos/PmsBrand.java
+ com.ratel.product.api.pojos.PmsBrand

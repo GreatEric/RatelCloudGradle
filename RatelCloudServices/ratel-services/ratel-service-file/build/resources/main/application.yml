@@ -1,0 +1,65 @@
+spring:
+  profiles:
+    active: ${active}
+  devtools:
+    restart:
+      enabled: true
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+      enabled: true
+
+ratelcloud:
+  tempfolder: /home/eric/Temp/oss/
+
+## Hibernate Logging
+logging:
+  level:
+    org.springframework.security:
+      - debug
+      - info
+    org.springframework.web: error
+    org.hibernate.SQL: debug
+    org.hibernate.engine.QueryParameters: debug
+    org.hibernate.engine.query.HQLQueryPlan: debug
+    org.hibernate.type.descriptor.sql.BasicBinder: trace
+
+# swagger配置
+knife4j:
+  ## 部署系统到生产系统,为了接口安全,需要屏蔽所有Swagger的相关资源
+  # production: true
+  basic:
+    ## 开启Swagger的Basic认证功能,默认是false
+    # enable: true
+    ## Basic认证用户名
+    username: ratelcloud
+    ## Basic认证密码
+    password: mtg01
+  markdowns: classpath:markdown/*
+
+# mybatis-plus配置
+mybatis-plus:
+  mapper-locations: classpath*:mappers/**/*.xml, classpath*:mappers/*.xml
+  # MyBaits 别名包扫描路径，通过该属性可以给包中的类注册别名
+  typeAliasesPackage: com.ratel.file.api.pojos.*
+  # 该配置请和 typeAliasesPackage 一起使用，如果配置了该属性，则仅仅会扫描路径下以该类作为父类的域对象 。
+  typeAliasesSuperType: java.lang.Object
+  type-enums-package: com.ratel.common.core.enums
+  configuration:
+    # 这个配置会将执行的sql打印出来，在开发或测试的时候可以用
+    logImpl: org.apache.ibatis.logging.stdout.StdOutImpl
+    # 驼峰下划线转换
+    mapUnderscoreToCamelCase: true
+    # 配置的缓存的全局开关
+    cacheEnabled: true
+    # 延时加载的开关
+    lazyLoadingEnabled: true
+    # 开启的话，延时加载一个属性时会加载该对象全部属性，否则按需加载属性
+    multipleResultSetsEnabled: true
+    useGeneratedKeys: true
+    defaultStatementTimeout: 60
+    defaultFetchSize: 100
+  global-config:
+    db-config:
+      id-type: auto

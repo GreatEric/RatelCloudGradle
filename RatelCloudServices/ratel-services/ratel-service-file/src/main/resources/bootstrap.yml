@@ -1,0 +1,16 @@
+server:
+  #address: 0.0.0.0
+  port: 18086
+
+spring:
+  main:
+    allowBeanDefinitionOverriding: true
+  application:
+    name: ratel-service-file
+  cloud:
+    nacos:
+      config:
+        server-addr: ${cloud.nacos.server-addr}
+        file-extension: properties
+      discovery:
+        server-addr: ${cloud.nacos.server-addr}

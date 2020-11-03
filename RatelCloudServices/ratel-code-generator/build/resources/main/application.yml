@@ -1,0 +1,58 @@
+server:
+  port: 18181
+
+spring:
+  devtools:
+    restart:
+      enabled: true
+  application:
+    name: ratel-code-generator
+  thymeleaf:
+    mode: HTML
+    encoding: utf-8
+    cache: false
+  datasource:
+    url: jdbc:mysql://kubuntu:3306/ratelcodegenerator?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+    username: mangotech
+    password: mtg01
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  jackson:
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: true
+    time-zone: UTC
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+      enabled: true
+
+## Hibernate Logging
+logging:
+  level:
+    org.springframework.security:
+      - debug
+      - info
+    org.springframework.web: error
+    org.hibernate.SQL: debug
+    org.hibernate.engine.QueryParameters: debug
+    org.hibernate.engine.query.HQLQueryPlan: debug
+    org.hibernate.type.descriptor.sql.BasicBinder: trace
+
+# swagger配置
+knife4j:
+  ## 部署系统到生产系统,为了接口安全,需要屏蔽所有Swagger的相关资源
+  production: false
+  basic:
+    ## 开启Swagger的Basic认证功能,默认是false
+    # enable: true
+    ## Basic认证用户名
+    username: ratelcloud
+    ## Basic认证密码
+    password: mtg01
+  markdowns: classpath:markdown/*

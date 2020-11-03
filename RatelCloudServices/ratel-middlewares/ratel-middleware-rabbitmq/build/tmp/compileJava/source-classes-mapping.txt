@@ -1,0 +1,10 @@
+com/ratel/middleware/rabbitmq/sender/impl/SendServiceImpl.java
+ com.ratel.middleware.rabbitmq.sender.impl.SendServiceImpl
+com/ratel/middleware/rabbitmq/receiver/impl/ReceiverServiceImpl.java
+ com.ratel.middleware.rabbitmq.receiver.impl.ReceiverServiceImpl
+com/ratel/middleware/rabbitmq/config/RabbitmqConfig.java
+ com.ratel.middleware.rabbitmq.config.RabbitmqConfig
+com/ratel/middleware/rabbitmq/sender/SenderService.java
+ com.ratel.middleware.rabbitmq.sender.SenderService
+com/ratel/middleware/rabbitmq/receiver/ReceiverService.java
+ com.ratel.middleware.rabbitmq.receiver.ReceiverService

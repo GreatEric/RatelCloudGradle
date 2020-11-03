@@ -1,0 +1,30 @@
+spring:
+  profiles:
+    active: ${active}
+  devtools:
+    restart:
+      enabled: true
+## Hibernate Logging
+logging:
+  level:
+    org.springframework.security:
+      - debug
+      - info
+    org.springframework.web: error
+    org.hibernate.SQL: debug
+    org.hibernate.engine.QueryParameters: debug
+    org.hibernate.engine.query.HQLQueryPlan: debug
+    org.hibernate.type.descriptor.sql.BasicBinder: trace
+
+# swagger配置
+knife4j:
+  ## 部署系统到生产系统,为了接口安全,需要屏蔽所有Swagger的相关资源
+  # production: true
+  basic:
+    ## 开启Swagger的Basic认证功能,默认是false
+    # enable: true
+    ## Basic认证用户名
+    username: ratelcloud
+    ## Basic认证密码
+    password: mtg01
+  markdowns: classpath:markdown/*

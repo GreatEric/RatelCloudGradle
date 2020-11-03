@@ -1,0 +1,14 @@
+plugins {
+    id 'org.springframework.boot' version '2.3.2.RELEASE'
+}
+subprojects {
+    dependencies {
+        api project(':ratel-nacos')
+        api 'org.springframework.cloud:spring-cloud-starter-gateway'
+        api 'org.springframework.cloud:spring-cloud-starter-openfeign'
+        api 'org.springframework.cloud:spring-cloud-starter-netflix-ribbon'
+        api 'org.springframework.boot:spring-boot-starter-actuator'
+        api 'org.springframework.boot:spring-boot-configuration-processor'
+        api 'org.springframework.boot:spring-boot-starter-webflux'
+    }
+}

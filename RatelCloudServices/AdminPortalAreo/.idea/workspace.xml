@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="23505816-5f3a-4987-bf28-0e0a46a7f150" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/admin/animations/animations.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin/animations/animations.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin/animations/enter-leave.animation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin/animations/fade-in.animation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin/animations/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin/animations/insert-remove.animation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin/animations/open-close.animation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin/animations/route.animation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin/animations/slide-in-out.animation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin/animations/slide-in.animation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin/animations/swipe.animation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin/app-reuse-strategy.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/admin/models/sys_tab.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icofont/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icofont/fonts/icofont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icofont/fonts/icofont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icofont/fonts/icofont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icofont/fonts/icofont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icofont/fonts/icofont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icofont/icofont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icofont/icofont.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/layerslide.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudservices-admin/src/main/java/com/mangotech/cloudservices/admin/modules/sys/controllers/PDFController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudservices-admin/src/test/java/com/mangotech/cloudservices/admin/QRCodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/annotations/MyAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/annotations/ShowMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/annotations/UTF8String.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/aspects/AnnotatedFieldAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/aspects/SetterMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/aspects/ShowMessageAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/entities/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/entities/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/entities/SMSMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/AsianFontProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/Base64Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/PDFUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudservices-extensions/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudservices-extensions/src/main/java/com/mangotech/cloudservices/extensions/sms/SMSService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudservices-extensions/src/main/java/com/mangotech/cloudservices/extensions/sms/mxtsms/MXTMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudservices-extensions/src/main/java/com/mangotech/cloudservices/extensions/sms/mxtsms/MXTSMSRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudservices-extensions/src/main/java/com/mangotech/cloudservices/extensions/sms/mxtsms/MXTSMSService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudservices-extensions/src/main/java/com/mangotech/cloudservices/extensions/sms/wholesalesms/WholesaleSMSMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudservices-extensions/src/main/java/com/mangotech/cloudservices/extensions/sms/wholesalesms/WholesaleSMSRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudservices-extensions/src/main/java/com/mangotech/cloudservices/extensions/sms/wholesalesms/WholesaleSMSService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudservices-extensions/src/test/java/com/mangotech/cloudservices/extensions/sms/mxtsms/MXTSMSServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudservices-extensions/src/test/java/com/mangotech/cloudservices/extensions/sms/wholesalesms/WholesaleSMSServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/browserslist" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/browserslist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/e2e/protractor.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/e2e/protractor.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/e2e/src/app.e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/e2e/src/app.po.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/e2e/src/app.po.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/e2e/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/e2e/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/karma.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@apis/apiservice-service.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@apis/apiservice-service.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@apis/apiservice-service.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@apis/apiservice-service.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@apis/auth/auth.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@apis/auth/auth.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@apis/auth/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@apis/auth/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@apis/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@apis/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@core/guards/auth.guard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@core/guards/auth.guard.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@core/guards/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@core/guards/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@core/guards/module.import.guard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@core/guards/module.import.guard.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@core/services/context.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@core/services/context.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@core/services/context.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@core/services/context.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@core/services/route-state.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@core/services/route-state.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@core/services/route-state.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@core/services/route-state.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@core/services/session.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@core/services/session.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@core/services/session.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@core/services/session.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@core/services/theme.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@core/services/theme.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@core/services/theme.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@core/services/theme.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@data/domain/route-state.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@data/domain/route-state.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@data/domain/user.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@data/domain/user.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@data/request/auth_req.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@data/request/auth_req.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@data/response/response.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@data/response/response.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@services/user.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@services/user.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@services/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@services/user.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@shared/copyright/copyright.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@shared/copyright/copyright.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@shared/copyright/copyright.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@shared/copyright/copyright.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@shared/copyright/copyright.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@shared/copyright/copyright.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@shared/footer/footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@shared/footer/footer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@shared/footer/footer.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@shared/footer/footer.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@shared/footer/footer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@shared/footer/footer.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@shared/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@shared/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@shared/header/header.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@shared/header/header.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@shared/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@shared/header/header.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@shared/layout/layout.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@shared/layout/layout.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@shared/layout/layout.component.less" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@shared/layout/layout.component.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@shared/layout/layout.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@shared/layout/layout.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@shared/layout/layout.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@shared/layout/layout.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@shared/sider-left/sider-left.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@shared/sider-left/sider-left.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@shared/sider-left/sider-left.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@shared/sider-left/sider-left.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@shared/sider-left/sider-left.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@shared/sider-left/sider-left.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@shared/sider-right/sider-right.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@shared/sider-right/sider-right.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@shared/sider-right/sider-right.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@shared/sider-right/sider-right.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@shared/sider-right/sider-right.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@shared/sider-right/sider-right.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@views/auth/auth-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@views/auth/auth-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@views/auth/auth.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@views/auth/auth.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@views/auth/auth.component.less" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@views/auth/auth.component.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@views/auth/auth.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@views/auth/auth.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@views/auth/auth.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@views/auth/auth.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@views/auth/auth.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@views/auth/auth.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@views/dashboard/dashboard-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@views/dashboard/dashboard-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@views/dashboard/dashboard.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@views/dashboard/dashboard.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@views/dashboard/dashboard.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@views/dashboard/dashboard.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@views/dashboard/dashboard.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@views/dashboard/dashboard.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/@views/dashboard/dashboard.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/@views/dashboard/dashboard.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/app/app.common.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/app/app.common.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/app/app.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/app/icons-provider.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/app/icons-provider.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/app/pages/welcome/welcome-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/app/pages/welcome/welcome-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/app/pages/welcome/welcome.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/app/pages/welcome/welcome.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/app/pages/welcome/welcome.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/app/pages/welcome/welcome.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/app/thirdparty.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/app/thirdparty.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/assets/conf/particles.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/assets/conf/particles.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/assets/libs/ps-0.9.js" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/assets/libs/ps-0.9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/environments/environment.prod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/polyfills.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/styles.less" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/styles.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/src/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/src/test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/tsconfig.spec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortal/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortal/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/e2e/protractor.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/e2e/protractor.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/e2e/src/app.e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/e2e/src/app.po.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/e2e/src/app.po.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/e2e/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/e2e/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/karma.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/admin-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/admin-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/admin.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/admin.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/dashboards/components/dashboard/dashboard.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/dashboards/components/dashboard/dashboard.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/dashboards/components/dashboard/dashboard.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/dashboards/components/dashboard/dashboard.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/dashboards/components/index/index.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/dashboards/components/index/index.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/dashboards/components/index/index.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/dashboards/components/index/index.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/dashboards/components/index/index.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/dashboards/components/index/index.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/dashboards/components/index/index.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/dashboards/components/index/index.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/dashboards/dashboards-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/dashboards/dashboards-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/dashboards/dashboards.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/dashboards/dashboards.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/admin/admin.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/admin/admin.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/admin/admin.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/admin/admin.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/admin/admin.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/admin/admin.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/breadcrumb/breadcrumb.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/breadcrumb/breadcrumb.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/breadcrumb/breadcrumb.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/breadcrumb/breadcrumb.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/breadcrumb/breadcrumb.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/breadcrumb/breadcrumb.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/left-sidebar/left-sidebar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/left-sidebar/left-sidebar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/left-sidebar/left-sidebar.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/left-sidebar/left-sidebar.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/left-sidebar/left-sidebar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/left-sidebar/left-sidebar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/overlay-menu/overlay-menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/overlay-menu/overlay-menu.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/overlay-menu/overlay-menu.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/overlay-menu/overlay-menu.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/overlay-menu/overlay-menu.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/overlay-menu/overlay-menu.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/right-sidebar/right-sidebar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/right-sidebar/right-sidebar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/right-sidebar/right-sidebar.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/right-sidebar/right-sidebar.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/right-sidebar/right-sidebar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/right-sidebar/right-sidebar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/settings/settings.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/settings/settings.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/settings/settings.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/settings/settings.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/settings/settings.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/components/settings/settings.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/services/layout.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/services/layout.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/services/layout.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/admin/layout/services/layout.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/app.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/authentication-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/authentication-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/authentication.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/authentication.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/components/authentication.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/components/authentication.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/components/authentication.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/components/authentication.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/components/authentication.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/components/authentication.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/components/authentication.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/components/authentication.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/models/route-state.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/models/route-state.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/models/route-state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/models/route-state.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/models/user.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/models/user.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/models/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/models/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/services/authentication-guard.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/services/authentication-guard.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/services/authentication-guard.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/services/authentication-guard.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/services/context.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/services/context.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/services/context.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/services/context.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/services/route-state.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/services/route-state.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/services/route-state.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/services/route-state.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/services/session.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/services/session.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/services/session.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/authentication/services/session.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/core/core.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/app/core/core.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/fonts/themify.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/fonts/themify.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/fonts/weathericons-regular-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/fonts/weathericons-regular-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_badgelistgroupitem.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_badgelistgroupitem.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_bootstrapselect.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_bootstrapselect.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_charts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_charts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_collapse.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_collapse.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_datetimepicker.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_datetimepicker.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_dialogs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_dialogs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_dropzone.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_dropzone.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_helpers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_helpers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_ionrangeslider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_ionrangeslider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_jquerydatatable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_jquerydatatable.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_jquerynestable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_jquerynestable.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_lightgallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_lightgallery.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_mediaobject.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_mediaobject.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_multiselect.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_multiselect.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_noUISlider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_noUISlider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_pageloader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_pageloader.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_panels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_panels.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_preloaders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_preloaders.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_progressbars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_progressbars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_tagsinput.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_tagsinput.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_tooltippopovers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_tooltippopovers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_waveseffect.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/components/_waveseffect.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/inc/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/inc/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/inc/_responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/inc/_responsive.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/skins/_blush.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/skins/_blush.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/skins/_cyan.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/skins/_cyan.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_alerts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_alerts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_badges.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_badges.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_cards.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_carousel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_checkboxes-radio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_checkboxes-radio.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_footers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_footers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_images.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_inputs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_inputs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_misc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_misc.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_modals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_modals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_nucleo-outline.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_nucleo-outline.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_pagination.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_pills.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_pills.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_popups.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_popups.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_responsive.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_social-buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_social-buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_tabs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_tabs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/mixins/_badges.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/mixins/_badges.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/mixins/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/mixins/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/mixins/_datepicker.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/mixins/_datepicker.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/mixins/_dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/mixins/_dropdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/mixins/_inputs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/mixins/_inputs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/mixins/_modals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/mixins/_modals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/mixins/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/mixins/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/mixins/_pages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/mixins/_pages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/mixins/_popovers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/mixins/_popovers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/mixins/_transparency.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/mixins/_transparency.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/mixins/_vendor-prefixes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/assets/scss/ui-kit/mixins/_vendor-prefixes.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/environments/environment.prod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/polyfills.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/src/test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/tsconfig.spec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalAreo-bootStrap/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/protractor.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/protractor.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/app.e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/app.po.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/app.po.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/karma.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/admin-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/admin-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/admin.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/admin.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/dashboards/components/dashboard/dashboard.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/dashboards/components/dashboard/dashboard.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/dashboards/components/dashboard/dashboard.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/dashboards/components/dashboard/dashboard.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/dashboards/components/index/index.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/dashboards/index/index.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/dashboards/components/index/index.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/dashboards/index/index.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/dashboards/components/index/index.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/dashboards/index/index.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/dashboards/components/index/index.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/dashboards/index/index.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/dashboards/dashboards-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/dashboards/dashboards.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/layout/components/admin/admin.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/layout/components/admin/admin.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/layout/components/admin/admin.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/layout/components/admin/admin.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/layout/components/admin/admin.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/layout/components/admin/admin.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/layout/components/admin/admin.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/layout/components/admin/admin.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/layout/components/breadcrumb/breadcrumb.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/layout/components/breadcrumb/breadcrumb.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/layout/components/breadcrumb/breadcrumb.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/layout/components/breadcrumb/breadcrumb.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/layout/components/breadcrumb/breadcrumb.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/layout/components/breadcrumb/breadcrumb.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/layout/components/breadcrumb/breadcrumb.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/layout/components/breadcrumb/breadcrumb.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/layout/components/left-sidebar/left-sidebar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/layout/components/left-sidebar/left-sidebar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/layout/components/left-sidebar/left-sidebar.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/layout/components/left-sidebar/left-sidebar.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/layout/components/left-sidebar/left-sidebar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/layout/components/left-sidebar/left-sidebar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/layout/components/left-sidebar/left-sidebar.component.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/layout/components/left-sidebar/left-sidebar.component.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/layout/components/overlay-menu/overlay-menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/layout/components/overlay-menu/overlay-menu.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/layout/components/overlay-menu/overlay-menu.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/layout/components/overlay-menu/overlay-menu.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/layout/components/overlay-menu/overlay-menu.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/layout/components/overlay-menu/overlay-menu.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/layout/components/right-sidebar/right-sidebar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/layout/components/right-sidebar/right-sidebar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/layout/components/right-sidebar/right-sidebar.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/layout/components/right-sidebar/right-sidebar.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/layout/components/right-sidebar/right-sidebar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/layout/components/right-sidebar/right-sidebar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/layout/components/settings/settings.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/layout/components/settings/settings.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/layout/components/settings/settings.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/layout/components/settings/settings.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/layout/components/settings/settings.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/layout/components/settings/settings.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/layout/services/layout.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/layout/services/layout.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/layout/services/layout.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/layout/services/layout.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/models/SysCategory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/models/sys_category.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/models/SysMenu.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/models/sys_menu.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/models/wordcloud.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/models/wordcloud.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/antdesign.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/antdesign.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/auth/auth.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/auth/auth.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/auth/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/auth/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/auth/auth_rep.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/auth/auth_rep.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/auth/auth_req.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/auth/auth_req.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/base-interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/base-interceptor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/base.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/base.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/base.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/base.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/countries/countries.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/countries/countries.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/countries/countries.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/countries/countries.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/countries/countries_rep.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/countries/countries_rep.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/countries/country.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/countries/country.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/response.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/response.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/sysmenu/sysmenu.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/sysmenu/sysmenu.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/sysmenu/sysmenu.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/sysmenu/sysmenu.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/authentication/authentication-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/authentication/authentication-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/authentication/authentication.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/authentication/authentication.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/authentication/components/authentication.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/authentication/components/authentication.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/authentication/components/authentication.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/authentication/components/authentication.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/authentication/components/authentication.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/authentication/components/authentication.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/authentication/components/authentication.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/authentication/components/authentication.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/authentication/models/route-state.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/authentication/models/route-state.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/authentication/models/route-state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/authentication/models/route-state.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/authentication/models/user.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/authentication/models/user.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/authentication/models/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/authentication/models/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/authentication/services/authentication-guard.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/authentication/services/authentication-guard.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/authentication/services/authentication-guard.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/authentication/services/authentication-guard.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/authentication/services/context.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/authentication/services/context.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/authentication/services/context.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/authentication/services/context.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/authentication/services/route-state.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/authentication/services/route-state.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/authentication/services/route-state.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/authentication/services/route-state.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/authentication/services/session.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/authentication/services/session.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/authentication/services/session.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/authentication/services/session.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/commons.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/commons.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/core/core.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/core.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/core/globalconfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/globalconfig.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/core/module.import.guard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/module.import.guard.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/demos/demos-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/demos/demos-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/demos/demos.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/demos/demos.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/demos/demos.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/demos/demos.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/demos/demos.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/demos/demos.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/demos/demos.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/demos/demos.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/utils/Utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/utils/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/flaticon.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/flaticon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/themify.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/themify.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/weathericons-regular-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/weathericons-regular-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_badgelistgroupitem.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_badgelistgroupitem.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_bootstrapselect.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_bootstrapselect.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_charts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_charts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_collapse.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_collapse.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_datetimepicker.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_datetimepicker.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_dialogs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_dialogs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_dropzone.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_dropzone.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_helpers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_helpers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_ionrangeslider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_ionrangeslider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_jquerydatatable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_jquerydatatable.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_jquerynestable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_jquerynestable.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_lightgallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_lightgallery.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_mediaobject.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_mediaobject.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_multiselect.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_multiselect.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_noUISlider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_noUISlider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_pageloader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_pageloader.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_panels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_panels.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_preloaders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_preloaders.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_progressbars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_progressbars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_tagsinput.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_tagsinput.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_tooltippopovers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_tooltippopovers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_waveseffect.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_waveseffect.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/inc/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/inc/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/inc/_responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/inc/_responsive.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/skins/_blush.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/skins/_blush.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/skins/_cyan.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/skins/_cyan.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/_alerts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/_alerts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/_badges.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/_badges.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/_cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/_cards.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/_carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/_carousel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/_checkboxes-radio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/_checkboxes-radio.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/_footers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/_footers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/_images.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/_inputs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/_inputs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/_misc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/_misc.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/_modals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/_modals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/_nucleo-outline.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/_nucleo-outline.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/_pagination.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/_pills.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/_pills.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/_popups.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/_popups.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/_responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/_responsive.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/_social-buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/_social-buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/_tabs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/_tabs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/mixins/_badges.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/mixins/_badges.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/mixins/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/mixins/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/mixins/_datepicker.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/mixins/_datepicker.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/mixins/_dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/mixins/_dropdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/mixins/_inputs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/mixins/_inputs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/mixins/_modals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/mixins/_modals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/mixins/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/mixins/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/mixins/_pages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/mixins/_pages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/mixins/_popovers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/mixins/_popovers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/mixins/_transparency.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/mixins/_transparency.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ui-kit/mixins/_vendor-prefixes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/ui-kit/mixins/_vendor-prefixes.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.prod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/polyfills.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.spec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalNuxt/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalNuxt/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalNuxt/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalNuxt/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalNuxt/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalNuxt/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalNuxt/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalNuxt/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalNuxt/assets/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalNuxt/assets/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalNuxt/components/Logo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalNuxt/components/Logo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalNuxt/components/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalNuxt/components/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalNuxt/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalNuxt/jest.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalNuxt/layouts/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalNuxt/layouts/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalNuxt/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalNuxt/layouts/default.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalNuxt/middleware/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalNuxt/middleware/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalNuxt/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalNuxt/nuxt.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalNuxt/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalNuxt/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalNuxt/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalNuxt/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalNuxt/pages/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalNuxt/pages/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalNuxt/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalNuxt/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalNuxt/plugins/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalNuxt/plugins/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalNuxt/plugins/antd-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalNuxt/plugins/antd-ui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalNuxt/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalNuxt/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalNuxt/static/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalNuxt/static/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalNuxt/store/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalNuxt/store/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalNuxt/test/Logo.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalNuxt/test/Logo.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdminPortalNuxt/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AdminPortalNuxt/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MangoCloudServices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MangoCloudServices.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shell/mysql.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Shell/mysql.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shell/nginx.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Shell/nginx.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shell/nginx/conf.d/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../Shell/nginx/conf.d/app.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shell/nginx/nginx.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Shell/nginx/nginx.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shell/run-1.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Shell/run-1.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shell/run-2.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Shell/run-2.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shell/run-3.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Shell/run-3.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shell/run-4.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Shell/run-4.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shell/run-5.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Shell/run-5.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/assets/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/assets/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/assets/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/assets/css/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/assets/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/assets/css/normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/assets/icon/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/assets/icon/iconfont.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/assets/icon/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/assets/icon/iconfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/assets/style/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/assets/style/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/assets/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/assets/style/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/assets/style/mixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/assets/style/mixin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/assets/style/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/assets/style/reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/assets/style/theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/assets/style/theme.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/components/Logo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/components/Logo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/components/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/components/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/components/common/HeaderStyle1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/components/common/HeaderStyle1.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/components/map/GoogleMap.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/components/map/GoogleMap.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/jest.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/layouts/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/layouts/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/layouts/default.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/layouts/error.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/layouts/error.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/layouts/layout-style1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/layouts/layout-style1.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/middleware/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/middleware/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/mock/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/mock/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/mock/startmock.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/mock/startmock.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/nuxt.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/pages/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/pages/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/pages/home/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/pages/home/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/pages/index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/pages/index.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/pages/news/_id.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/pages/news/_id.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/pages/news/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/pages/news/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/pages/signin/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/pages/signin/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/plugins/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/plugins/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/plugins/antd-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/plugins/antd-ui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/static/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/static/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/store/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/store/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/test/Logo.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/test/Logo.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SmartMall/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../SmartMall/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UtilsShell/maven_purge.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../UtilsShell/maven_purge.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UtilsShell/redis_shell.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../UtilsShell/redis_shell.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-admin/cloudservicesadmin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-admin/cloudservicesadmin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-admin/logs/cloudservices-demo.2020-04-22.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-admin/logs/cloudservices-demo.2020-04-23.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-admin/logs/cloudservices-demo.2020-04-24.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-admin/logs/cloudservices-demo.2020-04-25.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-admin/logs/cloudservices-demo.log" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-admin/logs/cloudservices-demo.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-admin/src/main/java/com/mangotech/cloudservices/admin/AdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-admin/src/main/java/com/mangotech/cloudservices/admin/AdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-admin/src/main/java/com/mangotech/cloudservices/admin/common/configs/SwaggerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-admin/src/main/java/com/mangotech/cloudservices/admin/common/configs/SwaggerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-admin/src/main/java/com/mangotech/cloudservices/admin/modules/sys/controllers/SysInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-admin/src/main/java/com/mangotech/cloudservices/admin/modules/sys/controllers/SysInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-admin/src/main/java/com/mangotech/cloudservices/admin/modules/sys/controllers/SysLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-admin/src/main/java/com/mangotech/cloudservices/admin/modules/sys/controllers/SysLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-admin/src/main/java/com/mangotech/cloudservices/admin/modules/sys/controllers/SysMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-admin/src/main/java/com/mangotech/cloudservices/admin/modules/sys/controllers/SysMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-admin/src/main/java/com/mangotech/cloudservices/admin/modules/sys/forms/SysLoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-admin/src/main/java/com/mangotech/cloudservices/admin/modules/sys/forms/SysLoginForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-admin/src/main/java/com/mangotech/cloudservices/admin/modules/sys/vo/SysInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-admin/src/main/java/com/mangotech/cloudservices/admin/modules/sys/vo/SysInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-admin/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-admin/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-admin/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-admin/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-admin/src/main/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-admin/src/main/resources/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-admin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-admin/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-admin/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-admin/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-admin/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-admin/src/main/resources/markdown/api.md" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-admin/src/main/resources/markdown/api.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-admin/src/main/resources/markdown/api2.md" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-admin/src/main/resources/markdown/api2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-admin/src/main/resources/markdown/api3.md" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-admin/src/main/resources/markdown/api3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-admin/src/main/resources/markdown/api4.md" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-admin/src/main/resources/markdown/api4.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-admin/src/test/java/com/mangotech/cloudservices/admin/DynamicDataSourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-admin/src/test/java/com/mangotech/cloudservices/admin/DynamicDataSourceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-admin/src/test/java/com/mangotech/cloudservices/admin/InsertI18NFlagTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-admin/src/test/java/com/mangotech/cloudservices/admin/InsertI18NFlagTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-admin/src/test/java/com/mangotech/cloudservices/admin/MsgUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-admin/src/test/java/com/mangotech/cloudservices/admin/MsgUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-admin/src/test/java/com/mangotech/cloudservices/admin/PwdGenerateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-admin/src/test/java/com/mangotech/cloudservices/admin/PwdGenerateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-admin/src/test/java/com/mangotech/cloudservices/admin/RTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-admin/src/test/java/com/mangotech/cloudservices/admin/RTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-admin/src/test/java/com/mangotech/cloudservices/admin/country.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-admin/src/test/java/com/mangotech/cloudservices/admin/country.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-admin/src/test/java/com/mangotech/cloudservices/admin/utils/LocaleUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-admin/src/test/java/com/mangotech/cloudservices/admin/utils/LocaleUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/annotations/SysLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/annotations/SysLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/aspects/SysLogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/aspects/SysLogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/configs/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/configs/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/controllers/AbstractController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/controllers/AbstractController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/dao/SysLogDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/dao/SysLogDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/dao/SysMenuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/dao/SysMenuDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/dao/SysOrgDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/dao/SysOrgDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/dao/SysRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/dao/SysRoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/dao/SysRoleMenuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/dao/SysRoleMenuDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/dao/SysRoleOrgDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/dao/SysRoleOrgDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/dao/SysUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/dao/SysUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/dao/SysUserRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/dao/SysUserRoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/dao/SysUserTokenDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/dao/SysUserTokenDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/datascope/DataScope.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/datascope/DataScope.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/datasource/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/datasource/DataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/datasource/DataSourceAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/datasource/DataSourceAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/datasource/DataSourceNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/datasource/DataSourceNames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/datasource/DynamicDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/datasource/DynamicDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/datasource/DynamicDataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/datasource/DynamicDataSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/entities/SysI18NEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/entities/SysI18NEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/entities/SysLogEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/entities/SysLogEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/entities/SysMenuEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/entities/SysMenuEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/entities/SysMsgEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/entities/SysMsgEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/entities/SysOrgEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/entities/SysOrgEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/entities/SysRoleEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/entities/SysRoleEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/entities/SysRoleMenuEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/entities/SysRoleMenuEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/entities/SysRoleOrgEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/entities/SysRoleOrgEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/entities/SysUserCustomizationEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/entities/SysUserCustomizationEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/entities/SysUserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/entities/SysUserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/entities/SysUserRoleEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/entities/SysUserRoleEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/entities/SysUserTokenEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/entities/SysUserTokenEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/enums/BaseEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/enums/BaseEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/enums/MsgEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/enums/MsgEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/exceptions/BaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/exceptions/BaseException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/exceptions/BaseExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/exceptions/BaseExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/exceptions/BizException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/exceptions/BizException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/http/HttpRequestGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/http/HttpRequestGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/repositories/SysI18NRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/repositories/SysI18NRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/repositories/SysMsgRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/repositories/SysMsgRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/repositories/SysUserCustomizationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/repositories/SysUserCustomizationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/sensitive/SensitiveInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/sensitive/SensitiveInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/sensitive/SensitiveInfoSerialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/sensitive/SensitiveInfoSerialize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/sensitive/SensitiveInfoUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/sensitive/SensitiveInfoUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/sensitive/SensitiveType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/sensitive/SensitiveType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/SysI18NService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/SysI18NService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/SysLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/SysLogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/SysMenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/SysMenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/SysMsgService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/SysMsgService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/SysOrgService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/SysOrgService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/SysRoleMenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/SysRoleMenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/SysRoleOrgService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/SysRoleOrgService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/SysRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/SysRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/SysUserCustomizationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/SysUserCustomizationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/SysUserRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/SysUserRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/SysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/SysUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/SysUserTokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/SysUserTokenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/impl/SysI18NServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/impl/SysI18NServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/impl/SysLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/impl/SysLogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/impl/SysMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/impl/SysMenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/impl/SysMsgServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/impl/SysMsgServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/impl/SysOrgServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/impl/SysOrgServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/impl/SysRoleMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/impl/SysRoleMenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/impl/SysRoleOrgServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/impl/SysRoleOrgServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/impl/SysRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/impl/SysRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/impl/SysUserCustomizationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/impl/SysUserCustomizationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/impl/SysUserRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/impl/SysUserRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/impl/SysUserTokenServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/services/impl/SysUserTokenServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/CharUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/CharUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/DateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/Debugger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/Debugger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/GsonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/GsonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/HttpContextUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/HttpContextUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/IpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/IpUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/JWTTokenGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/JWTTokenGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/JWTUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/JWTUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/ListBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/ListBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/LocaleUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/LocaleUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/MD5TokenGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/MD5TokenGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/MapBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/MapBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/Query.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/RedisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/RedisUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/SetBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/SetBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/ShiroUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/ShiroUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/SpringContextUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/SpringContextUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/StringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/SysHelpingInfoUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/SysHelpingInfoUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/SysMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/SysMsg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/TokenGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/utils/TokenGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/validator/Assert.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/validator/Assert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/validator/ValidatorUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/validator/ValidatorUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/validator/group/AddGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/validator/group/AddGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/validator/group/UpdateGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/validator/group/UpdateGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/vo/SysResponseMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/java/com/mangotech/cloudservices/common/vo/SysResponseMsg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/resources/application-common.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/resources/application-common.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/resources/mappers/sys/SysLogDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/resources/mappers/sys/SysLogDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/resources/mappers/sys/SysMenuDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/resources/mappers/sys/SysMenuDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/resources/mappers/sys/SysOrgDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/resources/mappers/sys/SysOrgDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/resources/mappers/sys/SysRoleDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/resources/mappers/sys/SysRoleDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/resources/mappers/sys/SysRoleMenuDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/resources/mappers/sys/SysRoleMenuDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/resources/mappers/sys/SysRoleOrgDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/resources/mappers/sys/SysRoleOrgDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/resources/mappers/sys/SysUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/resources/mappers/sys/SysUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/resources/mappers/sys/SysUserRoleDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/resources/mappers/sys/SysUserRoleDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/main/resources/mappers/sys/SysUserTokenDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/main/resources/mappers/sys/SysUserTokenDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/test/java/com/mangotech/cloudservices/common/utils/LocaleUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/test/java/com/mangotech/cloudservices/common/utils/LocaleUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-common/src/test/java/com/mangotech/cloudservices/common/utils/SysResponseMsgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-common/src/test/java/com/mangotech/cloudservices/common/utils/SysResponseMsgTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/cloudservicesdemos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/cloudservicesdemos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/configs/SwaggerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/configs/SwaggerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/configs/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/configs/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/dto/FileInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/dto/FileInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/dto/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/dto/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/dto/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/dto/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/dto/UserQueryCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/dto/UserQueryCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/exception/UserNotExistException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/exception/UserNotExistException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/service/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/service/HelloService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/service/impl/HelloServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/service/impl/HelloServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/validator/MyConstraint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/validator/MyConstraint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/validator/MyConstraintValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/validator/MyConstraintValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/web/aspect/TimeAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/web/aspect/TimeAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/web/async/AsyncController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/web/async/AsyncController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/web/async/DeferredResultHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/web/async/DeferredResultHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/web/async/MockQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/web/async/MockQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/web/async/QueueLIstener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/web/async/QueueLIstener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/web/controller/ControllerExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/web/controller/ControllerExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/web/controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/web/controller/FileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/web/controller/StaffController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/web/controller/StaffController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/web/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/web/filter/IPFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/web/filter/IPFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/web/filter/TimeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/web/filter/TimeFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/web/interceptor/TimeInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/java/com/mangotech/cloudservices/demos/web/interceptor/TimeInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/resources/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/resources/markdown/api.md" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/resources/markdown/api.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/resources/markdown/api2.md" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/resources/markdown/api2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/resources/markdown/api3.md" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/resources/markdown/api3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/resources/markdown/api4.md" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/resources/markdown/api4.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/resources/resources/error/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/resources/resources/error/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/main/resources/resources/error/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/main/resources/resources/error/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/test/java/com/mangotech/cloudservices/demos/web/controller/FileControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/test/java/com/mangotech/cloudservices/demos/web/controller/FileControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-demos/src/test/java/com/mangotech/cloudservices/demos/web/controller/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-demos/src/test/java/com/mangotech/cloudservices/demos/web/controller/UserControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-graphics/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-graphics/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-graphics/src/main/java/com/mangotech/cloudservices/graphics/utils/Base64Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-graphics/src/main/java/com/mangotech/cloudservices/graphics/utils/Base64Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-graphics/src/main/java/com/mangotech/cloudservices/graphics/utils/QRCodeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-graphics/src/main/java/com/mangotech/cloudservices/graphics/utils/QRCodeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-graphics/target/classes/com/mangotech/cloudservices/graphics/utils/Base64Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-graphics/target/classes/com/mangotech/cloudservices/graphics/utils/Base64Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-graphics/target/classes/com/mangotech/cloudservices/graphics/utils/QRCodeUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-graphics/target/classes/com/mangotech/cloudservices/graphics/utils/QRCodeUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-i18n/cloudservicesi18n.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-i18n/cloudservicesi18n.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-i18n/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-i18n/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-i18n/src/main/java/com/mangotech/cloudservices/i18n/flags/FlagRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-i18n/src/main/java/com/mangotech/cloudservices/i18n/flags/FlagRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-i18n/src/main/java/com/mangotech/cloudservices/i18n/flags/FlagService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-i18n/src/main/java/com/mangotech/cloudservices/i18n/flags/FlagService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-i18n/src/test/java/com/mangotech/cloudservices/i18n/flags/FlagServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-i18n/src/test/java/com/mangotech/cloudservices/i18n/flags/FlagServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-i18n/src/test/java/com/mangotech/cloudservices/i18n/flags/XMLParseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-i18n/src/test/java/com/mangotech/cloudservices/i18n/flags/XMLParseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-security/cloudservicessecurity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-security/cloudservicessecurity.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-security/src/main/java/com/mangotech/cloudservices/security/configs/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-security/src/main/java/com/mangotech/cloudservices/security/configs/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-security/src/main/java/com/mangotech/cloudservices/security/configs/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-security/src/main/java/com/mangotech/cloudservices/security/configs/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-security/src/main/java/com/mangotech/cloudservices/security/configs/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-security/src/main/java/com/mangotech/cloudservices/security/configs/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-security/src/main/java/com/mangotech/cloudservices/security/configs/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-security/src/main/java/com/mangotech/cloudservices/security/configs/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-security/src/main/java/com/mangotech/cloudservices/security/entities/AuthToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-security/src/main/java/com/mangotech/cloudservices/security/entities/AuthToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-security/src/main/java/com/mangotech/cloudservices/security/jwt/JWTFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-security/src/main/java/com/mangotech/cloudservices/security/jwt/JWTFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-security/src/main/java/com/mangotech/cloudservices/security/jwt/JWTRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-security/src/main/java/com/mangotech/cloudservices/security/jwt/JWTRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-security/src/main/java/com/mangotech/cloudservices/security/oauth2/Oauth2Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-security/src/main/java/com/mangotech/cloudservices/security/oauth2/Oauth2Filter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-security/src/main/java/com/mangotech/cloudservices/security/oauth2/Oauth2Realm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-security/src/main/java/com/mangotech/cloudservices/security/oauth2/Oauth2Realm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-security/src/main/java/com/mangotech/cloudservices/security/services/CaptchaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-security/src/main/java/com/mangotech/cloudservices/security/services/CaptchaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-security/src/main/java/com/mangotech/cloudservices/security/services/ShiroService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-security/src/main/java/com/mangotech/cloudservices/security/services/ShiroService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-security/src/main/java/com/mangotech/cloudservices/security/services/SysCaptchaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-security/src/main/java/com/mangotech/cloudservices/security/services/SysCaptchaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-security/src/main/java/com/mangotech/cloudservices/security/services/impl/ShiroServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-security/src/main/java/com/mangotech/cloudservices/security/services/impl/ShiroServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-security/src/main/java/com/mangotech/cloudservices/security/services/impl/SysCaptchaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-security/src/main/java/com/mangotech/cloudservices/security/services/impl/SysCaptchaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-security/src/main/resources/security.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-security/src/main/resources/security.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-system/cloudservicessystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-system/cloudservicessystem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-system/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/domain/SysDept.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/domain/SysDept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/domain/SysDict.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/domain/SysDict.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/domain/SysDictItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/domain/SysDictItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/domain/SysJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/domain/SysJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/domain/SysMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/domain/SysMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/domain/SysRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/domain/SysRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/domain/SysRoleDept.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/domain/SysRoleDept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/domain/SysRoleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/domain/SysRoleMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/domain/SysSocial.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/domain/SysSocial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/domain/SysTenant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/domain/SysTenant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/domain/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/domain/SysUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/domain/SysUserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/domain/SysUserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/dto/DeptDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/dto/DeptDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/dto/DictDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/dto/DictDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/dto/MenuDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/dto/MenuDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/dto/RoleDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/dto/RoleDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-system/src/main/java/com/mangotech/cloudservices/system/modules/sys/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-warehouse/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-warehouse/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloudservices-warehouse/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudservices-warehouse/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose/docker-compose-1.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose/docker-compose-1.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose/docker-compose-2.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose/docker-compose-2.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose/docker-compose-3.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose/docker-compose-3.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose/docker-compose-4.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose/docker-compose-4.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose/docker-compose-5.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose/docker-compose-5.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose/nginx/conf.d/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose/nginx/conf.d/app.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/References.md" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/References.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sqlite/mangosqlite.db" beforeDir="false" afterPath="$PROJECT_DIR$/../sqlite/mangosqlite.db" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/dist/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="tabpane.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/admin/layout/components/tabpane/tabpane.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#117#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navigation.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/admin/layout/services/navigation.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="route.animation.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/admin/animations/route.animation.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tabpane.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/admin/layout/components/tabpane/tabpane.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tabpane.component.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/admin/layout/components/tabpane/tabpane.component.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1410">
+              <caret line="94" column="1" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1335">
+              <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin-routing.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/admin/admin-routing.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="81" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/admin/layout/components/admin/admin.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tabservice.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/admin/layout/services/tabservice.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>word</find>
+      <find>activatedRoute</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/app/admin/dashboards/index/index.component.html" />
+        <option value="$PROJECT_DIR$/src/app/admin/dashboards/index/index.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/admin/animations/animations.ts" />
+        <option value="$PROJECT_DIR$/src/app/admin/admin.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/admin/layout/components/tabpane/tabpane.component.html" />
+        <option value="$PROJECT_DIR$/src/app/admin/layout/components/tabpane/tabpane.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/admin/layout/services/navigation.service.ts" />
+        <option value="$PROJECT_DIR$/src/app/admin/admin-routing.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/admin/layout/components/tabpane/tabpane.component.scss" />
+        <option value="$PROJECT_DIR$/src/styles.scss" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="376" />
+    <option name="y" value="134" />
+    <option name="width" value="1370" />
+    <option name="height" value="921" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AdminPortalAreo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminPortalAreo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminPortalAreo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminPortalAreo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminPortalAreo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminPortalAreo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminPortalAreo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminPortalAreo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminPortalAreo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminPortalAreo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminPortalAreo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminPortalAreo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdminPortalAreo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdminPortalAreo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="tabpane" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="Tests" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="E2E Tests" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:4200" />
+    <configuration name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Angular Application" />
+      <item itemvalue="Karma.Tests" />
+      <item itemvalue="Protractor.E2E Tests" />
+      <item itemvalue="npm.start" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23505816-5f3a-4987-bf28-0e0a46a7f150" name="Default Changelist" comment="" />
+      <created>1592827454319</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592827454319</updated>
+      <workItem from="1592827457013" duration="4612000" />
+      <workItem from="1592891904728" duration="4000" />
+      <workItem from="1593223745583" duration="669000" />
+      <workItem from="1593309131847" duration="678000" />
+      <workItem from="1594027580688" duration="10412000" />
+      <workItem from="1594207568649" duration="6514000" />
+      <workItem from="1594254647579" duration="200000" />
+      <workItem from="1594336803489" duration="88000" />
+      <workItem from="1594554054649" duration="49000" />
+      <workItem from="1600436998926" duration="1233000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="24459000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1920" height="1008" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32914287" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.72342855" visible="true" weight="0.16974169" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47428572" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info id="npm" order="2" sideWeight="0.27657142" side_tool="true" visible="true" weight="0.16974169" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32914287" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/app/admin/layout/components/tabpane/tabpane.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="121" column="7" selection-start-line="121" selection-start-column="7" selection-end-line="121" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/admin/layout/services/navigation.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/admin/animations/route.animation.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/admin/layout/components/tabpane/tabpane.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/admin/layout/components/tabpane/tabpane.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="94" column="1" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/admin/admin-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="81" lean-forward="true" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/admin/layout/components/admin/admin.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/admin/layout/services/tabservice.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/admin/dashboards/index/index.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="70" column="35" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/admin/dashboards/index/index.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="48" column="64" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/admin/animations/slide-in-out.animation.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-456" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/admin/layout/components/admin/admin.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/admin/admin.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/admin/animations/animations.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1634">
+          <caret line="94" column="1" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/admin/layout/services/navigation.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/admin/animations/route.animation.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/admin/layout/components/tabpane/tabpane.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/admin/layout/components/tabpane/tabpane.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="94" column="1" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/admin/admin-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="81" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/admin/layout/components/admin/admin.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/admin/layout/services/tabservice.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/admin/layout/components/tabpane/tabpane.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

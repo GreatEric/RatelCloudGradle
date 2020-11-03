@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ratel.order.mappers.OmsTransactionRecordMapper">
+    <resultMap id="omsTransactionRecordMap" type="com.ratel.order.api.dtos.OmsTransactionRecordDTO">
+    <id column="id" property="id" />
+    <id column="bussiness_id" property="bussinessId" />
+    <id column="customer_id" property="customerId" />
+    <id column="currency" property="currency" />
+    <id column="payment_time" property="paymentTime" />
+    <id column="payment_type" property="paymentType" />
+    <id column="payment_result" property="paymentResult" />
+    <id column="payment_amt" property="paymentAmt" />
+    <id column="order_serial" property="orderSerial" />
+    <id column="transaction_id" property="transactionId" />
+    <id column="merchant_id" property="merchantId" />
+    <id column="decline_reason" property="declineReason" />
+    <id column="callback_content" property="callbackContent" />
+    <id column="callback_time" property="callbackTime" />
+    <id column="create_time" property="createTime" />
+    <id column="modify_time" property="modifyTime" />
+    </resultMap>
+
+    <sql id="omsTransactionRecordSelectSql">
+    oms.id as id,
+    oms.bussiness_id as bussiness_id,
+    oms.customer_id as customer_id,
+    oms.currency as currency,
+    oms.payment_time as payment_time,
+    oms.payment_type as payment_type,
+    oms.payment_result as payment_result,
+    oms.payment_amt as payment_amt,
+    oms.order_serial as order_serial,
+    oms.transaction_id as transaction_id,
+    oms.merchant_id as merchant_id,
+    oms.decline_reason as decline_reason,
+    oms.callback_content as callback_content,
+    oms.callback_time as callback_time,
+    oms.create_time as create_time,
+    oms.modify_time as modify_time
+    </sql>
+
+    <select id="pageAllOmsTransactionRecords" resultMap="omsTransactionRecordMap">
+    select
+    <include refid="omsTransactionRecordSelectSql"></include>
+    from oms_transaction_record oms
+    ${ew.customSqlSegment}
+    </select>
+</mapper>

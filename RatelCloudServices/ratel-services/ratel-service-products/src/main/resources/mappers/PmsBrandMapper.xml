@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ratel.product.mappers.PmsBrandMapper">
+    <resultMap id="pmsBrandMap" type="com.ratel.product.api.dtos.PmsBrandDTO">
+    <id column="id" property="id" />
+    <id column="name_zh" property="nameZh" />
+    <id column="name_en" property="nameEn" />
+    <id column="icon" property="icon" />
+    <id column="initial" property="initial" />
+    <id column="seq" property="seq" />
+    <id column="create_time" property="createTime" />
+    <id column="modify_time" property="modifyTime" />
+    </resultMap>
+
+    <sql id="pmsBrandSelectSql">
+    pms.id as id,
+    pms.name_zh as name_zh,
+    pms.name_en as name_en,
+    pms.icon as icon,
+    pms.initial as initial,
+    pms.seq as seq,
+    pms.create_time as create_time,
+    pms.modify_time as modify_time
+    </sql>
+
+    <select id="pageAllPmsBrands" resultMap="pmsBrandMap">
+    select
+    <include refid="pmsBrandSelectSql"></include>
+    from pms_brand pms
+    ${ew.customSqlSegment}
+    </select>
+</mapper>

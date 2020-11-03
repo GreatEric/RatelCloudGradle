@@ -1,0 +1,126 @@
+plugins {
+    id "io.spring.dependency-management" version "1.0.10.RELEASE"
+    id 'java'
+    id 'java-library'
+}
+
+allprojects {
+    group = 'com.ratel'
+    version = '1.0-SNAPSHOT'
+
+    repositories {
+        mavenCentral()
+        jcenter()
+        google()
+    }
+}
+
+subprojects {
+    repositories {
+        mavenCentral()
+        jcenter()
+        google()
+    }
+
+    buildscript {
+        repositories {
+            mavenCentral()
+        }
+    }
+
+    configurations {
+        optional
+        compile.extendsFrom optional
+    }
+
+    /********* 依赖版本管理: start *********/
+    ext {
+        springBootVersion = '2.3.2.RELEASE'
+        springCloudVersion = 'Hoxton.SR7'
+        springAlibabaCloudVersion = '2.2.1.RELEASE'
+        mysqlVersion = '8.0.18'
+        sqliteVersion = '3.32.3.2'
+        druidVerison = '1.1.23'
+        mybatisPlusVerison = '3.3.1'
+        shardingsphereVersion = '4.1.1'
+        commonsLang = '3.11'
+        commonsCollectionsVersion = '3.2.2'
+        commonsCollections4Version = '4.4'
+        commonsIOVersion = '2.7'
+        lombokVersion = '1.18.12'
+        knife4jVersion = '2.0.4'
+        jwtVersion = '3.10.3'
+        fastjsonVersion = '1.2.68'
+        gsonVersion = '2.8.6'
+        libphonenumberVersion = '8.12.9'
+        zxingVersion = '3.4.0'
+        retrofit2Version = '2.5.0'
+        okhttp3LoggingInterceptorVersion = '3.14.1'
+        nepxionVersion = '1.0.2'
+        servletApiVersion = '4.0.1'
+        persistenceapiVersion = '1.0.2'
+        hutoolVersion = '5.4.2'
+        freemarkerVersion = '2.3.30'
+        hibernateValidatorVersion = '6.1.5.Final'
+        validationApiVersion = '2.0.1.Final'
+        transmittableVersion = '2.11.5'
+        httpClientVersion = '4.5.12'
+        aliyunSdkOssVersion = '3.11.0'
+        elasticJobVersion = '2.1.5'
+    }
+    /********* 依赖版本管理: start *********/
+
+    /********* 所有子项目通用的插件: start *********/
+    apply plugin: 'java'
+    apply plugin: 'idea'
+    apply plugin: 'application'
+    apply plugin: 'java-library'
+    apply plugin: 'maven-publish'
+    apply plugin: 'io.spring.dependency-management'
+    /********* 所有子项目通用的插件: end *********/
+
+    group 'com.ratel'
+
+    sourceCompatibility = '1.8'
+
+    dependencyManagement {
+        imports {
+            mavenBom("org.springframework.boot:spring-boot-dependencies:${springBootVersion}")
+            mavenBom("org.springframework.cloud:spring-cloud-dependencies:$springCloudVersion")
+            mavenBom("com.alibaba.cloud:spring-cloud-alibaba-dependencies:$springAlibabaCloudVersion")
+        }
+    }
+
+    /********* 所有子项目通用的依赖: start *********/
+    dependencies {
+        /******************* swagger: start *******************/
+        implementation group: 'com.github.xiaoymin', name: 'knife4j-spring-boot-starter', version: knife4jVersion
+        /******************* swagger: end *******************/
+
+        /******************* commons包: start *******************/
+        api group: 'org.apache.commons', name: 'commons-lang3', version: commonsLang
+        api group: 'org.apache.commons', name: 'commons-collections4', version: commonsCollections4Version
+        api group: 'commons-io', name: 'commons-io', version: commonsIOVersion
+        api group: 'commons-beanutils', name: 'commons-beanutils', version: '1.9.4'
+        /******************* commons包: start *******************/
+
+        /******************* json处理依赖: start *******************/
+        implementation group: 'com.alibaba', name: 'fastjson', version: fastjsonVersion
+        implementation group: 'com.google.code.gson', name:'gson', version: gsonVersion
+        /******************* json处理依赖: end *******************/
+
+        /******************* lombok依赖: start *******************/
+        annotationProcessor group: 'org.projectlombok', name: 'lombok', version: lombokVersion
+        compileOnly group: 'org.projectlombok', name: 'lombok', version: lombokVersion
+        testAnnotationProcessor group: 'org.projectlombok', name: 'lombok', version: lombokVersion
+        testCompileOnly group: 'org.projectlombok', name: 'lombok', version: lombokVersion
+        /******************* lombok依赖: end *******************/
+
+        /******************* 单元测试: start *******************/
+        testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.7.0'
+        implementation 'org.springframework.boot:spring-boot-devtools'
+        testImplementation 'org.springframework.boot:spring-boot-starter-test'
+        /******************* 单元测试: end *******************/
+    }
+    /********* 所有子项目通用的依赖: start *********/
+}

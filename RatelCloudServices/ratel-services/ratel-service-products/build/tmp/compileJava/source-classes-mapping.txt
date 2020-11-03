@@ -1,0 +1,16 @@
+com/ratel/product/services/PmsBrandService.java
+ com.ratel.product.services.PmsBrandService
+com/ratel/product/config/WebMvcConfig.java
+ com.ratel.product.config.WebMvcConfig
+com/ratel/product/ProductServiceApp.java
+ com.ratel.product.ProductServiceApp
+com/ratel/product/config/MybatisPlusConfig.java
+ com.ratel.product.config.MybatisPlusConfig
+com/ratel/product/controllers/PmsBrandController.java
+ com.ratel.product.controllers.PmsBrandController
+com/ratel/product/config/SwaggerConfiguration.java
+ com.ratel.product.config.SwaggerConfiguration
+com/ratel/product/mappers/PmsBrandMapper.java
+ com.ratel.product.mappers.PmsBrandMapper
+com/ratel/product/services/impl/PmsBrandServiceImpl.java
+ com.ratel.product.services.impl.PmsBrandServiceImpl

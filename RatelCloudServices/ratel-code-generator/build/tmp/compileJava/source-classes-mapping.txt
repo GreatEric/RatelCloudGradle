@@ -1,0 +1,73 @@
+com/ratel/codegenerator/builders/MapperXMLBuilder.java
+ com.ratel.codegenerator.builders.MapperXMLBuilder
+com/ratel/codegenerator/builders/VueTBColumnsBuilder.java
+ com.ratel.codegenerator.builders.VueTBColumnsBuilder
+com/ratel/codegenerator/GeneratorApp.java
+ com.ratel.codegenerator.GeneratorApp
+com/ratel/codegenerator/builders/ControllerBuilder.java
+ com.ratel.codegenerator.builders.ControllerBuilder
+com/ratel/codegenerator/entities/DBConnection.java
+ com.ratel.codegenerator.entities.DBConnection
+com/ratel/codegenerator/enums/DBTypeEnum.java
+ com.ratel.codegenerator.enums.DBTypeEnum
+com/ratel/codegenerator/entities/Rsp.java
+ com.ratel.codegenerator.entities.Rsp
+ com.ratel.codegenerator.entities.Rsp$Builder
+com/ratel/codegenerator/builders/DTOBuilder.java
+ com.ratel.codegenerator.builders.DTOBuilder
+com/ratel/codegenerator/builders/TemplateUtil.java
+ com.ratel.codegenerator.builders.TemplateUtil
+com/ratel/codegenerator/builders/FeignBuilder.java
+ com.ratel.codegenerator.builders.FeignBuilder
+com/ratel/codegenerator/entities/table/JavaTypes.java
+ com.ratel.codegenerator.entities.table.JavaTypes
+com/ratel/codegenerator/builders/MapperBuilder.java
+ com.ratel.codegenerator.builders.MapperBuilder
+com/ratel/codegenerator/repositories/BasicConfigRepository.java
+ com.ratel.codegenerator.repositories.BasicConfigRepository
+com/ratel/codegenerator/repositories/DBConnectionRepository.java
+ com.ratel.codegenerator.repositories.DBConnectionRepository
+com/ratel/codegenerator/entities/table/ModelInfo.java
+ com.ratel.codegenerator.entities.table.ModelInfo
+com/ratel/codegenerator/entities/swagger/SwaggerModelProperties.java
+ com.ratel.codegenerator.entities.swagger.SwaggerModelProperties
+com/ratel/codegenerator/builders/QueryFormBuilder.java
+ com.ratel.codegenerator.builders.QueryFormBuilder
+com/ratel/codegenerator/entities/swagger/SwaggerResponse.java
+ com.ratel.codegenerator.entities.swagger.SwaggerResponse
+com/ratel/codegenerator/builders/ServiceImplBuilder.java
+ com.ratel.codegenerator.builders.ServiceImplBuilder
+com/ratel/codegenerator/builders/PojoBuilder.java
+ com.ratel.codegenerator.builders.PojoBuilder
+com/ratel/codegenerator/entities/BaseEntity.java
+ com.ratel.codegenerator.entities.BaseEntity
+com/ratel/codegenerator/entities/swagger/SwaggerPath.java
+ com.ratel.codegenerator.entities.swagger.SwaggerPath
+com/ratel/codegenerator/entities/forms/DBConnectionForm.java
+ com.ratel.codegenerator.entities.forms.DBConnectionForm
+com/ratel/codegenerator/builders/VOBuilder.java
+ com.ratel.codegenerator.builders.VOBuilder
+com/ratel/codegenerator/controllers/BuilderController.java
+ com.ratel.codegenerator.controllers.BuilderController
+com/ratel/codegenerator/builders/SwaggerBuilder.java
+ com.ratel.codegenerator.builders.SwaggerBuilder
+com/ratel/codegenerator/entities/swagger/SwaggerMethod.java
+ com.ratel.codegenerator.entities.swagger.SwaggerMethod
+com/ratel/codegenerator/builders/BuilderFactory.java
+ com.ratel.codegenerator.builders.BuilderFactory
+com/ratel/codegenerator/utils/StringUtils.java
+ com.ratel.codegenerator.utils.StringUtils
+com/ratel/codegenerator/config/SwaggerConfiguration.java
+ com.ratel.codegenerator.config.SwaggerConfiguration
+com/ratel/codegenerator/entities/swagger/SwaggerParameters.java
+ com.ratel.codegenerator.entities.swagger.SwaggerParameters
+com/ratel/codegenerator/builders/ServiceBuilder.java
+ com.ratel.codegenerator.builders.ServiceBuilder
+com/ratel/codegenerator/utils/Debugger.java
+ com.ratel.codegenerator.utils.Debugger
+com/ratel/codegenerator/config/WebMvcConfig.java
+ com.ratel.codegenerator.config.WebMvcConfig
+com/ratel/codegenerator/entities/BasicConfig.java
+ com.ratel.codegenerator.entities.BasicConfig
+com/ratel/codegenerator/entities/swagger/SwaggerModel.java
+ com.ratel.codegenerator.entities.swagger.SwaggerModel

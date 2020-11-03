@@ -1,0 +1,83 @@
+<div class="container-fluid">
+    <div class="row clearfix">
+        <div class="col-lg-4 col-md-4 col-sm-4" style="border-right: 1px solid #383838;min-height: 77vh;margin:15px 0 15px 0;">
+            <div class="card widget_2 big_icon traffic">
+                <div class="body">
+                    <nz-input-group [nzSuffix]="suffixIcon">
+                        <input type="text" nz-input placeholder="Search" [(ngModel)]="menuSearch" />
+                    </nz-input-group>
+                    <ng-template #suffixIcon>
+                        <i nz-icon nzType="search"></i>
+                    </ng-template>
+                    <hr>
+                    <nz-tree
+                            nzBlockNode
+                            [nzData]="nodes"
+                            [nzSearchValue]="menuSearch"
+                            (nzClick)="activeNode($event)"
+                            (nzDblClick)="openFolder($event)"
+                            [nzTreeTemplate]="nzTreeTemplate"
+                    ></nz-tree>
+                    <ng-template #nzTreeTemplate let-node let-origin="origin">
+                      <span class="custom-node">
+                        <span *ngIf="!node.isLeaf" (contextmenu)="contextMenu($event, menu)">
+                          <span class="folder-name">{{ node.title }}</span>
+                          <span class="folder-desc">created by {{ origin.author | lowercase }}</span>
+                        </span>
+                        <span *ngIf="node.isLeaf" (contextmenu)="contextMenu($event, menu)">
+                          <span class="file-name">{{ node.title }}</span>
+                          <span class="file-desc">modified by {{ origin.author | lowercase }}</span>
+                        </span>
+                      </span>
+                    </ng-template>
+                    <nz-dropdown-menu #menu="nzDropdownMenu">
+                        <ul nz-menu>
+                            <li nz-menu-item (click)="selectDropdown()">Action 1</li>
+                            <li nz-menu-item (click)="selectDropdown()">Action 2</li>
+                        </ul>
+                    </nz-dropdown-menu>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-8 col-md-8 col-sm-8" style="border-right: 1px solid #383838;min-height: 77vh;margin:15px 0 15px 0;">
+            <div class="card widget_2 big_icon traffic">
+                <div class="body">
+                    <nz-input-group [nzSuffix]="suffixIcon">
+                        <input type="text" nz-input placeholder="Search" [(ngModel)]="menuSearch" />
+                    </nz-input-group>
+                    <ng-template #suffixIcon>
+                        <i nz-icon nzType="search"></i>
+                    </ng-template>
+                    <hr>
+                    <nz-tree
+                            nzBlockNode
+                            [nzData]="nodes"
+                            [nzSearchValue]="menuSearch"
+                            (nzClick)="activeNode($event)"
+                            (nzDblClick)="openFolder($event)"
+                            [nzTreeTemplate]="nzTreeTemplate"
+                    ></nz-tree>
+                    <ng-template #nzTreeTemplate let-node let-origin="origin">
+                      <span class="custom-node">
+                        <span *ngIf="!node.isLeaf" (contextmenu)="contextMenu($event, menu)">
+                          <span class="folder-name">{{ node.title }}</span>
+                          <span class="folder-desc">created by {{ origin.author | lowercase }}</span>
+                        </span>
+                        <span *ngIf="node.isLeaf" (contextmenu)="contextMenu($event, menu)">
+                          <span class="file-name">{{ node.title }}</span>
+                          <span class="file-desc">modified by {{ origin.author | lowercase }}</span>
+                        </span>
+                      </span>
+                    </ng-template>
+                    <nz-dropdown-menu #menu="nzDropdownMenu">
+                        <ul nz-menu>
+                            <li nz-menu-item (click)="selectDropdown()">Action 1</li>
+                            <li nz-menu-item (click)="selectDropdown()">Action 2</li>
+                        </ul>
+                    </nz-dropdown-menu>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

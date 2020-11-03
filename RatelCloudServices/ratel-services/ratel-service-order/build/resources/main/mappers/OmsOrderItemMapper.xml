@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ratel.order.mappers.OmsOrderItemMapper">
+    <resultMap id="omsOrderItemMap" type="com.ratel.order.api.dtos.OmsOrderItemDTO">
+    <id column="id" property="id" />
+    <id column="order_id" property="orderId" />
+    <id column="order_sn" property="orderSn" />
+    <id column="spu_id" property="spuId" />
+    <id column="spu_name" property="spuName" />
+    <id column="spu_pic" property="spuPic" />
+    <id column="spu_brand" property="spuBrand" />
+    <id column="category_id" property="categoryId" />
+    <id column="sku_id" property="skuId" />
+    <id column="sku_name" property="skuName" />
+    <id column="sku_pic" property="skuPic" />
+    <id column="sku_price" property="skuPrice" />
+    <id column="sku_qty" property="skuQty" />
+    <id column="sku_attrs_vals" property="skuAttrsVals" />
+    <id column="promotion_amt" property="promotionAmt" />
+    <id column="coupon_amt" property="couponAmt" />
+    <id column="real_amt" property="realAmt" />
+    <id column="integration_amt" property="integrationAmt" />
+    <id column="gift_integration" property="giftIntegration" />
+    <id column="gift_growth" property="giftGrowth" />
+    <id column="create_time" property="createTime" />
+    <id column="modify_time" property="modifyTime" />
+    </resultMap>
+
+    <sql id="omsOrderItemSelectSql">
+    oms.id as id,
+    oms.order_id as order_id,
+    oms.order_sn as order_sn,
+    oms.spu_id as spu_id,
+    oms.spu_name as spu_name,
+    oms.spu_pic as spu_pic,
+    oms.spu_brand as spu_brand,
+    oms.category_id as category_id,
+    oms.sku_id as sku_id,
+    oms.sku_name as sku_name,
+    oms.sku_pic as sku_pic,
+    oms.sku_price as sku_price,
+    oms.sku_qty as sku_qty,
+    oms.sku_attrs_vals as sku_attrs_vals,
+    oms.promotion_amt as promotion_amt,
+    oms.coupon_amt as coupon_amt,
+    oms.real_amt as real_amt,
+    oms.integration_amt as integration_amt,
+    oms.gift_integration as gift_integration,
+    oms.gift_growth as gift_growth,
+    oms.create_time as create_time,
+    oms.modify_time as modify_time
+    </sql>
+
+    <select id="pageAllOmsOrderItems" resultMap="omsOrderItemMap">
+    select
+    <include refid="omsOrderItemSelectSql"></include>
+    from oms_order_item oms
+    ${ew.customSqlSegment}
+    </select>
+</mapper>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ratel.order.mappers.OmsOrderOperateHistoryMapper">
+    <resultMap id="omsOrderOperateHistoryMap" type="com.ratel.order.api.dtos.OmsOrderOperateHistoryDTO">
+    <id column="id" property="id" />
+    <id column="order_id" property="orderId" />
+    <id column="operator" property="operator" />
+    <id column="order_status" property="orderStatus" />
+    <id column="remark" property="remark" />
+    <id column="create_time" property="createTime" />
+    <id column="modify_time" property="modifyTime" />
+    </resultMap>
+
+    <sql id="omsOrderOperateHistorySelectSql">
+    oms.id as id,
+    oms.order_id as order_id,
+    oms.operator as operator,
+    oms.order_status as order_status,
+    oms.remark as remark,
+    oms.create_time as create_time,
+    oms.modify_time as modify_time
+    </sql>
+
+    <select id="pageAllOmsOrderOperateHistorys" resultMap="omsOrderOperateHistoryMap">
+    select
+    <include refid="omsOrderOperateHistorySelectSql"></include>
+    from oms_order_operate_history oms
+    ${ew.customSqlSegment}
+    </select>
+</mapper>

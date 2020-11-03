@@ -1,0 +1,424 @@
+
+.slide-show {
+    margin:20px auto;
+    width:240px;
+    height:320px;
+    background:whitesmoke;
+    position:relative;
+    overflow:hidden;
+    // Frame 
+    &:after {
+        content:'';
+        position:absolute;
+        top:0;right:0;bottom:0;left:0;
+        border:3px double silver;
+        z-index:1;
+    }
+
+    // Slide
+    > div {
+        position:absolute;
+        top:0;right:0;bottom:0;left:0;
+        width:  100%;
+        height: 100%;
+        background-color: #282828;
+        color: #fff;
+        font-family:sans-serif;
+        font-size:200px;
+        line-height:280px;        
+        text-align:center;   
+    }
+
+    // Navigation 
+    label {
+        font-family:sans-serif;
+        font-size:16px;
+        color: #fff;
+        background-color:rgba(black,.2);
+        padding:10px 20px;
+        margin:5px;
+        border-radius:7px;
+        cursor: pointer;
+        transform:scale(0);
+        position:absolute;
+        bottom:0; 
+        z-index:2;
+        + label { right:0; }
+        
+        
+    }
+
+    [type=radio]:checked + label,
+    [type=radio]:checked + label + label { transform:scale(1);}
+
+  -webkit-touch-callout: none; 
+  user-select: none;          
+    
+}
+
+// ------------------------------------
+//    Selector shorthands 
+//    Note the order! 
+// ------------------------------------
+$prev-slide    : '[type=radio]:not(:checked) ~ div';
+$next-slide    : '[type=radio]:checked ~ div ~ div';
+$selected-slide: '[type=radio]:checked ~ div';
+
+
+// ------------------------------------
+// Scale and Slide
+// ------------------------------------
+[id=scale-slide]:checked ~ .slide-show {
+    // To get timing offset on position scale
+    // we use margin rather than translateX
+    //
+    // 
+    #{$prev-slide} { 
+        transition: margin-left .5s .3s, transform .5s, opacity .3s .5s;
+        margin-left:-100%;
+        transform:scale(.85);
+        opacity: .1;        
+    }
+    #{$next-slide} { 
+        transition: margin-left .5s .3s, transform .5s, opacity .3s .5s; 
+        margin-left:100%;
+        transform:scale(0.85);
+        opacity: .1;
+    }
+    #{$selected-slide} { 
+        transition: margin-left .5s .3s, transform .3s .8s;
+        margin-left: 0;
+        transform:scale(1);
+        opacity: 1;        
+    } 
+}
+
+// ------------------------------------
+//     Cross Fade
+// ------------------------------------
+[id=cross-fade]:checked ~ .slide-show {
+    #{$prev-slide} { 
+        transition: all .8s;
+        opacity: 0;  
+    }
+    #{$next-slide} { 
+        transition: all .8s;
+        opacity: 0;     
+    }
+    #{$selected-slide} { 
+        transition: all .8s;
+        opacity: 1;        
+        z-index: 1;
+    }    
+}
+
+// ------------------------------------
+//    Scale and Fade
+// ------------------------------------
+[id=cross-fade-scale]:checked ~ .slide-show {
+    #{$prev-slide} { 
+        transition: all .8s;
+        opacity: 0; 
+        transform:scale(1.5);
+    }
+    #{$next-slide} { 
+        transition: all .8s;
+        opacity: 0;    
+        transform:scale(1.5);        
+    }
+    #{$selected-slide} { 
+        transition: all .8s;
+        opacity: 1;
+        transform:scale(1);        
+        z-index: 1;
+    }    
+}
+
+// ------------------------------------
+//     Horizontal Slide
+// ------------------------------------
+[id=slide-h]:checked ~ .slide-show {
+    #{$prev-slide} { 
+        transition: all .8s, opacity .3s .5s;
+        margin-left:-100%;   
+        opacity: 0.1;    
+    }
+    #{$next-slide} {  
+        transition: all .8s, opacity .3s .5s;
+        margin-left:100%; 
+        opacity: 0.1;    
+    }
+    #{$selected-slide} { 
+        transition: all .8s;
+        margin-left:0;
+        opacity: 1;    
+        z-index: 1;
+    }    
+}
+// ------------------------------------
+//     Vertical Slide (from bottom)
+// ------------------------------------
+[id=slide-v]:checked ~ .slide-show {
+    #{$prev-slide} { 
+        transition: all .8s, opacity .3s .5s;
+        transform:translateY(-100%);   
+        opacity: 0.1;    
+    }
+    #{$next-slide} {  
+        transition: all .8s, opacity .3s .5s;
+        transform:translateY(100%);
+        opacity: 0.1;    
+    }
+    #{$selected-slide} { 
+        transition: all .8s;
+        transform:translateY(0);
+        opacity: 1;    
+        z-index: 1;
+    }    
+}
+
+
+// ------------------------------------
+//     Slide Over Horizontal
+// ------------------------------------
+[id=slide-over-h]:checked ~ .slide-show {
+    #{$prev-slide} {  
+        transition: transform .7s .1s ease-in, opacity .3s .6s, z-index .7s;
+        transform:translateX(-100%);  
+        opacity: 0.1;  
+        z-index: 0;
+    }
+    #{$next-slide} { 
+        transition: transform .7s .1s ease-in, opacity .3s .6s, z-index .7s;
+        transform:translateX(100%);  
+        opacity: 0.1; 
+        z-index: 0;
+    }    
+    #{$selected-slide} { 
+        transition: transform .6s ease-out, opacity .1s;
+        transform:translateX(0); 
+        opacity: 1;  
+        z-index: 1;
+    }
+}
+
+
+// ------------------------------------
+//     Slide Over Vertical
+// ------------------------------------
+[id=slide-over-v]:checked ~ .slide-show {
+    #{$prev-slide} {  
+        transition: transform .7s .1s ease-in, opacity .3s .6s, z-index .7s;
+        transform:translateY(-100%);  
+        opacity: 0.1;  
+        z-index: 0;
+    }
+    #{$next-slide} { 
+        transition: transform .7s .1s ease-in, opacity .3s .6s, z-index .7s;
+        transform:translateY(100%);  
+        opacity: 0.1; 
+        z-index: 0;
+    }    
+    #{$selected-slide} { 
+        transition: transform .6s ease-out, opacity .1s;
+        transform:translateY(0); 
+        opacity: 1;  
+        z-index: 1;
+    }
+}
+
+// ------------------------------------
+//     Card Flip Horizontal
+// ------------------------------------
+[id=card-flip-h]:checked ~ .slide-show {
+    perspective: 1000;
+    div { backface-visibility: hidden; }
+
+    #{$prev-slide} { 
+        transition: all .5s ease-in;
+        transform: scale(.5) rotateY(-180deg);
+        border-radius: 10%;           
+    }
+    #{$next-slide} {
+        transition: all .5s ease-in;
+        transform: scale(.5) rotateY(180deg);
+        border-radius: 10%;           
+    }    
+    #{$selected-slide} {
+        transition: all .5s ease-in;
+        transform: scale(1) rotateY(0);
+        border-radius: 0%;           
+    }    
+}
+
+// ------------------------------------
+//     Card Flip Vertical
+// ------------------------------------
+[id=card-flip-v]:checked ~ .slide-show {
+    perspective: 1000;
+    div { backface-visibility: hidden; }
+
+    #{$prev-slide} { 
+        transition: all .5s ease-in;
+        transform:  scale(.3) rotateX(-180deg);
+        border-radius: 5%;           
+    }
+    #{$next-slide} {
+        transition: all .5s ease-in;
+        transform:scale(.3) rotateX(180deg);
+        border-radius: 5%;           
+    }    
+    #{$selected-slide} { 
+        transition: all .5s ease-in;
+        transform: scale(1) rotateX(0);
+        border-radius: 0;           
+    }        
+}
+
+
+// ------------------------------------
+//     Card Rotate Horizontal
+// ------------------------------------
+[id=card-rotate-h]:checked ~ .slide-show {
+    perspective: 1000;
+    div { backface-visibility: hidden; }
+
+    #{$prev-slide} { 
+        transition: all .5s ease-in, opacity .5s .4s;
+        transform:  rotateY(-90deg) scale(.3) ;
+        margin-left: -100%;
+        opacity:0.1;
+        border-radius: 5%;           
+    }
+    #{$next-slide} {
+        transition: all .5s ease-in, opacity .5s .4s;
+        transform:rotateY(90deg) scale(.3) ;
+        margin-left: 100%;        
+        opacity:0.1;   
+        border-radius: 5%;           
+    }    
+    #{$selected-slide} { 
+        transition: all .5s ease-in, margin-left .6s,opacity .3s;
+        transform: scale(1) rotateY(0);
+        margin-left: 0%;  
+        z-index: 1;
+        opacity: 1;    
+        border-radius: 0;           
+    }       
+}
+
+
+// ------------------------------------
+//     Card Rotate Vertical
+// ------------------------------------
+[id=card-rotate-v]:checked ~ .slide-show {
+    perspective: 1000;
+    div { backface-visibility: hidden; }
+
+    #{$prev-slide} { 
+        transition: all .5s ease-in, opacity .5s .4s;
+        transform:  translateY(-100%) rotateX(90deg) scale(.3) ;
+//        margin-top: -100%;
+        opacity:0.1;
+        border-radius: 5%;                
+    }
+    #{$next-slide} {
+        transition: all .5s ease-in, opacity .5s .4s;
+        transform: translateY(100%) rotateX(-90deg) scale(.3) ;
+//        margin-top: 100%;        
+        opacity:0.1;    
+        border-radius: 5%;        
+    }    
+    #{$selected-slide} { 
+        transition: all .5s ease-in, margin-top .6s, opacity .3s;
+        transform: translateY(0) scale(1) rotateX(0);
+//         margin-top: 0%;  
+        z-index: 1;
+        opacity: 1;   
+        border-radius: 0;
+    }        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html { box-sizing: border-box; }
+*,*:before,*:after { box-sizing: inherit; }
+body { margin:0;}
+label{ cursor:pointer; display: block;}
+[hidden]{display:none;}
+// Display modes
+[id=show-off]:checked ~ .slide-show { overflow:visible}
+.slide-show  { > div:nth-of-type(n){ background-color: #282828; } }
+[id=show-colors]:checked ~ .slide-show  {
+    > div:nth-of-type(1){ background-color: tomato; } 
+    > div:nth-of-type(2){ background-color: olive; } 
+    > div:nth-of-type(3){ background-color: gold; }     
+    > div:nth-of-type(4){ background-color: skyblue; }  
+    > div:nth-of-type(5){ background-color: purple; } 
+    > div:nth-of-type(6){ background-color: slategray; } 
+    > div:nth-of-type(7){ background-color: tan; }     
+}
+.type,.display {
+    position: relative;
+    z-index:10;
+    padding:20px;
+    border-bottom: 1px solid lightgray;
+    background:rgba(whitesmoke,0.8);
+    text-align:center;
+    h1 { font:20px sans-serif; margin:5px;  }
+    p  { display:block; font:9px sans-serif; }
+    label { 
+        background:white; display:inline-block; 
+        padding:10px; margin:5px; font:9px sans-serif; 
+        width:180px; border:1px solid silver; text-transform: uppercase;
+        
+        &:after{ content:''; display:block; width:14px; height:14px; 
+            border:2px solid silver; background:white; border-radius:50%;
+            float:right;
+        }
+        
+       
+        
+    }
+    &:after{ content:'';display:inline-block;width:100%;clear:both;}
+}
+.display { 
+    label:after{border-radius:0; content: ''; font-size:16px; line-height:.5; color:666; }
+}
+
+[id=show-off]:checked ~ div [for=show-off],
+[id=show-colors]:checked ~ div [for=show-colors] { 
+    &:after { content: '\2713'; }
+}
+
+[id=scale-slide]:checked ~ div [for=scale-slide],
+[id=slide-h]:checked ~ div [for=slide-h],
+[id=slide-v]:checked ~ div [for=slide-v],
+[id=slide-over-h]:checked ~ div [for=slide-over-h],
+[id=slide-over-v]:checked ~ div [for=slide-over-v],
+[id=cross-fade]:checked ~ div [for=cross-fade],
+[id=cross-fade-scale]:checked ~ div [for=cross-fade-scale],
+[id=card-flip-h]:checked ~ div [for=card-flip-h],
+[id=card-flip-v]:checked ~ div [for=card-flip-v],
+[id=card-rotate-h]:checked ~ div [for=card-rotate-h],
+[id=card-rotate-v]:checked ~ div [for=card-rotate-v]{ 
+    background: lightgray; 
+    &:after {border-color:white;background:#666;}
+}
+

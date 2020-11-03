@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ratel.file.mappers.FmsOssMapper">
+    <resultMap id="fmsOssMap" type="com.ratel.file.api.dtos.FmsOssDTO">
+    <id column="id" property="id" />
+    <id column="bussiness_id" property="bussinessId" />
+    <id column="file_name" property="fileName" />
+    <id column="file_type" property="fileType" />
+    <id column="file_extension" property="fileExtension" />
+    <id column="folder_path" property="folderPath" />
+    <id column="url" property="url" />
+    <id column="is_deleted" property="isDeleted" />
+    <id column="end_point" property="endPoint" />
+    <id column="bucket_name" property="bucketName" />
+    <id column="is_encrypted" property="isEncrypted" />
+    <id column="create_time" property="createTime" />
+    <id column="modify_time" property="modifyTime" />
+    </resultMap>
+
+    <sql id="fmsOssSelectSql">
+    fms.id as id,
+    fms.bussiness_id as bussiness_id,
+    fms.file_name as file_name,
+    fms.file_type as file_type,
+    fms.file_extension as file_extension,
+    fms.folder_path as folder_path,
+    fms.url as url,
+    fms.is_deleted as is_deleted,
+    fms.end_point as end_point,
+    fms.bucket_name as bucket_name,
+    fms.is_encrypted as is_encrypted,
+    fms.create_time as create_time,
+    fms.modify_time as modify_time
+    </sql>
+
+    <select id="pageAllFmsOsss" resultMap="fmsOssMap">
+    select
+    <include refid="fmsOssSelectSql"></include>
+    from fms_oss fms
+    ${ew.customSqlSegment}
+    </select>
+</mapper>

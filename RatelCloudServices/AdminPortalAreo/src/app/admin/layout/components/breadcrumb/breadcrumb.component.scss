@@ -1,0 +1,109 @@
+.routeHistroyBtnGroup{
+  height:40px;
+  line-height: 40px;
+  width: auto;
+  display: flex;
+}
+.routeHistroyBtnGroup span{
+  display: block;
+  text-align: center;
+  background-color:rgb(49,49,49);
+}
+.routeHistroyBtnGroup span:first-child{
+  color: rgb(4,190,91);
+  width: auto;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  //border: 1px solid rgb(4,190,91);
+  border-right: 2px solid rgba(49,49,49,0.3);
+  padding: 0px 10px 0px 10px;
+  max-width: 150px;
+  min-width: 150px;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: left;
+}
+.routeHistroyBtnGroup span:nth-child(2){
+  border: 1px solid rgb(49,49,49);
+  width: auto;
+  padding: 0px 15px 0px 10px;
+  color: rgb(199,194,194);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.left{
+  display: flex;
+  flex-flow: row;
+  height: 60px;
+  align-items: center;
+}
+.right{
+  display: flex;
+  flex-flow: row-reverse;
+  height: 60px;
+  align-items: center;
+}
+
+//.screenshot-toolbox{
+//  position: relative !important;
+//  z-index: 10000003 !important;
+//  left: 100px !important;
+//  top: 100px !important;
+//}
+
+.tabwrapper{
+  height: 70px;
+  margin-bottom: 15px;
+  max-height: 70px;
+}
+.swiper-slide{
+  width: 100% !important;
+  height: 30px;
+  overflow: hidden !important;
+  cursor: pointer !important;
+}
+
+.tab{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  overflow: hidden !important;
+}
+.tab div:nth-child(2){
+  display: flex;
+  flex-flow: row-reverse;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.controls{
+  width: auto;
+  height: 30px;
+  background-color: rgb(56,56,56);
+  border: 1px solid rgb(56,56,56);
+  border-radius: 20px !important;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding-left: 15px;
+  padding-right: 15px;
+  align-items: center;
+}
+.controls span{
+  padding-left: 8px;
+  padding-right: 8px;
+  transition: all ease-in-out .5s;
+  font-size: 20px;
+  color: white;
+}
+.controls span:hover{
+  color: rgb(4,190,91);
+}

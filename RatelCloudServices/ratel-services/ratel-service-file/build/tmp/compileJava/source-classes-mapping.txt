@@ -1,0 +1,24 @@
+com/ratel/file/services/impl/FmsOssServiceImpl.java
+ com.ratel.file.services.impl.FmsOssServiceImpl
+com/ratel/file/config/WebMvcConfig.java
+ com.ratel.file.config.WebMvcConfig
+com/ratel/file/config/SwaggerConfiguration.java
+ com.ratel.file.config.SwaggerConfiguration
+com/ratel/file/config/MybatisPlusConfig.java
+ com.ratel.file.config.MybatisPlusConfig
+com/ratel/file/controllers/FmsOssController.java
+ com.ratel.file.controllers.FmsOssController
+com/ratel/file/mappers/FmsOssMapper.java
+ com.ratel.file.mappers.FmsOssMapper
+com/ratel/file/services/AliyunCloudStorageService.java
+ com.ratel.file.services.AliyunCloudStorageService
+com/ratel/file/services/CloudStorageService.java
+ com.ratel.file.services.CloudStorageService
+com/ratel/file/config/CloudStorageConfig.java
+ com.ratel.file.config.CloudStorageConfig
+com/ratel/file/FileServiceApp.java
+ com.ratel.file.FileServiceApp
+com/ratel/file/services/FmsOssService.java
+ com.ratel.file.services.FmsOssService
+com/ratel/file/services/OSSFactory.java
+ com.ratel.file.services.OSSFactory

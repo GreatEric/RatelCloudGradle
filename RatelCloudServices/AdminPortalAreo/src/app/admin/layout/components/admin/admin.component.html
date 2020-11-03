@@ -1,0 +1,34 @@
+<div class="main-div {{currentTheme}} {{smallLeftBarClass}}" [ngClass]="{'theme-dark':darkLayout,'right_icon_toggle':!rightSidebarVisible}">
+    <!-- Page Loader -->
+    <ngx-ui-loader [loaderId]="'dashboard'"></ngx-ui-loader>
+
+    <!-- Overlay For Sidebars -->
+    <div class="overlay" [ngClass]="{'d-block':settingsVisible,'d-none':!settingsVisible}" (click)="toggleSetting()"></div>
+
+    <!-- Main Search -->
+    <div id="search" [ngClass]="{'open':searchVisible}">
+        <button id="close" type="button" class="close btn btn-primary btn-icon btn-icon-mini btn-round" (click)="hideSearch()">x</button>
+        <form>
+            <input type="search" value="" placeholder="Search...">
+            <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+    </div>
+
+    <!-- Menu Overlay -->
+    <app-overlay-menu></app-overlay-menu>
+
+    <!-- Right Icon menu Sidebar -->
+    <app-right-sidebar></app-right-sidebar>
+
+    <!-- Left Sidebar -->
+    <app-left-sidebar  [darkLayout]="darkLayout" ></app-left-sidebar>
+
+    <!-- Right Sidebar -->
+    <app-settings></app-settings>
+    
+    <section class="content">
+        <!--<app-breadcrumb></app-breadcrumb>-->
+        <app-tabpane></app-tabpane>
+    </section>
+    
+</div>

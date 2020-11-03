@@ -1,0 +1,63 @@
+<div class="container-fluid" id="target">
+    <div class="row clearfix">
+        <div class="col-lg-7 col-md-6 col-sm-12 left">
+            <nz-button-group class="routeHistroyBtnGroup">
+                <span nz-button class="currentTab">
+                    <i class="icofont-refresh"></i> {{ currentTab.title }}
+                </span>
+                <span nz-button nz-dropdown [nzDropdownMenu]="historyRoutes" nzPlacement="bottomRight">
+                    <i class="icofont-listing-number"></i> History
+                </span>
+            </nz-button-group>
+            <nz-dropdown-menu #historyRoutes="nzDropdownMenu">
+                <ul nz-menu>
+                    <li *ngFor="let item of tabs" nz-menu-item>
+                        {{ item.title }}
+                    </li>
+                </ul>
+            </nz-dropdown-menu>
+        </div>
+        <div class="col-lg-5 col-md-6 col-sm-12 right">
+            <button class="btn btn-primary btn-icon right_icon_toggle_btn" type="button" (click)="toggleRightBar()"><i class="zmdi zmdi-arrow-right"></i></button>
+        </div>
+    </div>
+
+    <div class="row clearfix">
+        <div class="col-sm-12 tabwrapper">
+            <nz-tabset [nzSelectedIndex]="currentIndex"
+                       (nzSelectChange)="onSelectChange($event)"
+                       [nzType]="'card'"
+                       [nzAnimated]="true"
+                       [nzShowPagination]="true">
+                <nz-tab *ngFor="let tab of tabs" [nzTitle]="titleTemplate">
+                    <ng-template #titleTemplate>
+                        <div>
+                            <i nz-icon [nzType]="tab.icon"></i>
+                            {{ tab.title }}
+                            <i *ngIf="tab.isRemove" nz-icon nzType="close" class="ant-tabs-close-x" (click)="closeTab(tab.url)"></i>
+                        </div>
+                    </ng-template>
+
+                    <!--<div [@routeAnimations]="prepareRoute(outlet)" class="animationWrapper">
+                        <router-outlet #outlet="outlet"></router-outlet>
+                    </div>-->
+
+                    <!--<router-outlet></router-outlet>-->
+                </nz-tab>
+            </nz-tabset>
+            <div [@routerAnimation]="getRouteAnimation(router)" class="tab-content">
+                <div class="card">
+                    <div class="body">
+                        <router-outlet #router="outlet"></router-outlet>
+                    </div>
+                </div>
+            </div>
+
+            <!--<div class="card">
+                <div class="body">
+                </div>
+            </div>-->
+        </div>
+    </div>
+</div>
+

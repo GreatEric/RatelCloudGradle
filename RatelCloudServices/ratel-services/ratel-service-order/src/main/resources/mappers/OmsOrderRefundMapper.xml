@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ratel.order.mappers.OmsOrderRefundMapper">
+    <resultMap id="omsOrderRefundMap" type="com.ratel.order.api.dtos.OmsOrderRefundDTO">
+    <id column="id" property="id" />
+    <id column="order_id" property="orderId" />
+    <id column="sku_id" property="skuId" />
+    <id column="order_sn" property="orderSn" />
+    <id column="customer_name" property="customerName" />
+    <id column="customer_phone" property="customerPhone" />
+    <id column="refund_amt" property="refundAmt" />
+    <id column="processing_time" property="processingTime" />
+    <id column="sku_img" property="skuImg" />
+    <id column="sku_name" property="skuName" />
+    <id column="sku_brand" property="skuBrand" />
+    <id column="sku_attrs" property="skuAttrs" />
+    <id column="sku_qty" property="skuQty" />
+    <id column="sku_price" property="skuPrice" />
+    <id column="sku_paid_amt" property="skuPaidAmt" />
+    <id column="reason_title" property="reasonTitle" />
+    <id column="reason_desc" property="reasonDesc" />
+    <id column="reason_desc_pics" property="reasonDescPics" />
+    <id column="processing_remark" property="processingRemark" />
+    <id column="processor" property="processor" />
+    <id column="receiver" property="receiver" />
+    <id column="receiver_phone" property="receiverPhone" />
+    <id column="receiver_email" property="receiverEmail" />
+    <id column="receive_time" property="receiveTime" />
+    <id column="receive_remark" property="receiveRemark" />
+    <id column="company_address" property="companyAddress" />
+    <id column="application_status" property="applicationStatus" />
+    <id column="create_time" property="createTime" />
+    <id column="modify_time" property="modifyTime" />
+    </resultMap>
+
+    <sql id="omsOrderRefundSelectSql">
+    oms.id as id,
+    oms.order_id as order_id,
+    oms.sku_id as sku_id,
+    oms.order_sn as order_sn,
+    oms.customer_name as customer_name,
+    oms.customer_phone as customer_phone,
+    oms.refund_amt as refund_amt,
+    oms.processing_time as processing_time,
+    oms.sku_img as sku_img,
+    oms.sku_name as sku_name,
+    oms.sku_brand as sku_brand,
+    oms.sku_attrs as sku_attrs,
+    oms.sku_qty as sku_qty,
+    oms.sku_price as sku_price,
+    oms.sku_paid_amt as sku_paid_amt,
+    oms.reason_title as reason_title,
+    oms.reason_desc as reason_desc,
+    oms.reason_desc_pics as reason_desc_pics,
+    oms.processing_remark as processing_remark,
+    oms.processor as processor,
+    oms.receiver as receiver,
+    oms.receiver_phone as receiver_phone,
+    oms.receiver_email as receiver_email,
+    oms.receive_time as receive_time,
+    oms.receive_remark as receive_remark,
+    oms.company_address as company_address,
+    oms.application_status as application_status,
+    oms.create_time as create_time,
+    oms.modify_time as modify_time
+    </sql>
+
+    <select id="pageAllOmsOrderRefunds" resultMap="omsOrderRefundMap">
+    select
+    <include refid="omsOrderRefundSelectSql"></include>
+    from oms_order_refund oms
+    ${ew.customSqlSegment}
+    </select>
+</mapper>

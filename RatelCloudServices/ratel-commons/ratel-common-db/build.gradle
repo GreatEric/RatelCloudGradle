@@ -1,0 +1,11 @@
+dependencies {
+    api project(':ratel-commons:ratel-common-core')
+
+    api group: 'mysql', name: 'mysql-connector-java', version: mysqlVersion
+    api group: 'com.baomidou', name: 'mybatis-plus-boot-starter', version: mybatisPlusVerison
+    api group: 'com.baomidou', name: 'mybatis-plus-extension', version: mybatisPlusVerison
+    api group: 'com.alibaba', name: 'druid', version: druidVerison
+    api group: 'org.apache.shardingsphere', name: 'sharding-jdbc-spring-boot-starter', version: shardingsphereVersion
+
+    api 'org.springframework.boot:spring-boot-configuration-processor'
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ratel-auth" />
+            <option value="$PROJECT_DIR$/ratel-code-generator" />
+            <option value="$PROJECT_DIR$/ratel-commons" />
+            <option value="$PROJECT_DIR$/ratel-commons/ratel-common-core" />
+            <option value="$PROJECT_DIR$/ratel-commons/ratel-common-db" />
+            <option value="$PROJECT_DIR$/ratel-commons/ratel-common-feign" />
+            <option value="$PROJECT_DIR$/ratel-gateway" />
+            <option value="$PROJECT_DIR$/ratel-gateway/ratel-gateway-system" />
+            <option value="$PROJECT_DIR$/ratel-middlewares" />
+            <option value="$PROJECT_DIR$/ratel-middlewares/ratel-middleware-elasticjob" />
+            <option value="$PROJECT_DIR$/ratel-middlewares/ratel-middleware-elasticsearch" />
+            <option value="$PROJECT_DIR$/ratel-middlewares/ratel-middleware-rabbitmq" />
+            <option value="$PROJECT_DIR$/ratel-middlewares/ratel-middleware-redis" />
+            <option value="$PROJECT_DIR$/ratel-nacos" />
+            <option value="$PROJECT_DIR$/ratel-reverser" />
+            <option value="$PROJECT_DIR$/ratel-services" />
+            <option value="$PROJECT_DIR$/ratel-services-api" />
+            <option value="$PROJECT_DIR$/ratel-services-api/ratel-service-bargainrush-api" />
+            <option value="$PROJECT_DIR$/ratel-services-api/ratel-service-file-api" />
+            <option value="$PROJECT_DIR$/ratel-services-api/ratel-service-oauth-api" />
+            <option value="$PROJECT_DIR$/ratel-services-api/ratel-service-order-api" />
+            <option value="$PROJECT_DIR$/ratel-services-api/ratel-service-pay-api" />
+            <option value="$PROJECT_DIR$/ratel-services-api/ratel-service-products-api" />
+            <option value="$PROJECT_DIR$/ratel-services-api/ratel-service-syscenter-api" />
+            <option value="$PROJECT_DIR$/ratel-services-api/ratel-service-user-api" />
+            <option value="$PROJECT_DIR$/ratel-services-composition" />
+            <option value="$PROJECT_DIR$/ratel-services-composition/composition-ecommerce" />
+            <option value="$PROJECT_DIR$/ratel-services/ratel-service-bargainrush" />
+            <option value="$PROJECT_DIR$/ratel-services/ratel-service-file" />
+            <option value="$PROJECT_DIR$/ratel-services/ratel-service-order" />
+            <option value="$PROJECT_DIR$/ratel-services/ratel-service-pay" />
+            <option value="$PROJECT_DIR$/ratel-services/ratel-service-products" />
+            <option value="$PROJECT_DIR$/ratel-services/ratel-service-search" />
+            <option value="$PROJECT_DIR$/ratel-services/ratel-service-syscenter" />
+            <option value="$PROJECT_DIR$/ratel-services/ratel-service-user" />
+            <option value="$PROJECT_DIR$/ratel-transaction" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

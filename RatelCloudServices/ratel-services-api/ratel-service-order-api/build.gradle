@@ -1,0 +1,7 @@
+dependencies {
+    api project(':ratel-nacos')
+    /* api project(':ratel-commons:ratel-common-core')*/
+    optional project(':ratel-commons:ratel-common-db')
+    api project(':ratel-commons:ratel-common-feign')
+    api 'org.springframework.boot:spring-boot-configuration-processor'
+}

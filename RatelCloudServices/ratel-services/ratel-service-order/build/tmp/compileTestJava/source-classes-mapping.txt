@@ -1,0 +1,4 @@
+com/ratel/order/service/RabbitmqSenderTest.java
+ com.ratel.order.service.RabbitmqSenderTest
+com/ratel/order/service/RabbitmqReceiverTest.java
+ com.ratel.order.service.RabbitmqReceiverTest

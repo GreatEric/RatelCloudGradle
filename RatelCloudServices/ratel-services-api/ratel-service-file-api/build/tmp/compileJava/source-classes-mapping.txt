@@ -1,0 +1,8 @@
+com/ratel/file/api/forms/FmsOssQueryForm.java
+ com.ratel.file.api.forms.FmsOssQueryForm
+com/ratel/file/api/pojos/FmsOss.java
+ com.ratel.file.api.pojos.FmsOss
+com/ratel/file/api/dtos/FmsOssDTO.java
+ com.ratel.file.api.dtos.FmsOssDTO
+com/ratel/file/api/forms/FileUploadForm.java
+ com.ratel.file.api.forms.FileUploadForm

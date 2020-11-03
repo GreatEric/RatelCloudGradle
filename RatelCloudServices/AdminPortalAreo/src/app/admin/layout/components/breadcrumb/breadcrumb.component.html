@@ -1,0 +1,60 @@
+<div class="container-fluid" id="target">
+    <div class="row clearfix">
+        <div class="col-lg-7 col-md-6 col-sm-12 left">
+            <nz-button-group class="routeHistroyBtnGroup">
+                <span nz-button class="currentTab">
+                    <i class="icofont-refresh"></i> {{ currentTab.title }}
+                </span>
+                <span nz-button nz-dropdown [nzDropdownMenu]="historyRoutes" nzPlacement="bottomRight">
+                    <i class="icofont-listing-number"></i> History
+                </span>
+            </nz-button-group>
+            <nz-dropdown-menu #historyRoutes="nzDropdownMenu">
+                <ul nz-menu>
+                    <li *ngFor="let item of tabs" nz-menu-item>
+                        {{ item.title }}
+                    </li>
+                </ul>
+            </nz-dropdown-menu>
+        </div>
+        <div class="col-lg-5 col-md-6 col-sm-12 right">
+            <button class="btn btn-primary btn-icon right_icon_toggle_btn" type="button" (click)="toggleRightBar()"><i class="zmdi zmdi-arrow-right"></i></button>
+        </div>
+    </div>
+
+    <div class="row clearfix">
+        <div class="col-sm-12 tabwrapper">
+            <div class="card">
+                <nz-switch [(ngModel)]="isOpen" [nzCheckedChildren]="checkedTemplate"></nz-switch>
+                <ng-template #checkedTemplate><i nz-icon nzType="scissor"></i></ng-template>
+
+                <div [@swipeAnimations]="isOpen ? 'open' : 'closed'" (@swipeAnimations.done)="onAnimationEvent($event)" class="open-close-container">
+                    <p>The box is now {{ isOpen ? 'Open' : 'Closed' }}!</p>
+                </div>
+
+                <div class="body">
+                    <!--<div class="tab" [@swipeAnimations]="isOpen ? 'open' : 'closed'" (@swipeAnimations.done)="onAnimationEvent($event)">
+                        <div class="noselect">
+                            <i class="zmdi zmdi-home"></i> {{ currentTab.title }}
+                        </div>
+                        <div>
+                            <div class="controls">
+                                <span><i class="icofont-drag1"></i></span>
+                                <span><i class="icofont-dotted-left"></i></span>
+                                <span><i class="icofont-dotted-right"></i></span>
+                            </div>
+                        </div>
+                    </div>-->
+
+                    <!--<app-tabpane (tabEmitter)="getCurrentTab($event)" [currentTab]="currentTab"></app-tabpane>-->
+<!--                    <swiper class="swiper-container" fxFlex="auto" [config]="config" (indexChange)="onIndexChange($event)">-->
+<!--                    &lt;!&ndash;<swiper class="swiper-container" fxFlex="auto" [config]="config" [disabled]="disabled" (indexChange)="onIndexChange($event)" (swiperTransitionStart)="onSwiperEvent('transitionStart')" (swiperTransitionEnd)="onSwiperEvent('transitionEnd')">&ndash;&gt;-->
+<!--                        <div *ngFor="let tab of tabs" class="swiper-slide">-->
+<!--                            <app-tabpane (tabEmitter)="getCurrentTab($event)" [currentTab]="currentTab"></app-tabpane>-->
+<!--                        </div>-->
+<!--                    </swiper>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

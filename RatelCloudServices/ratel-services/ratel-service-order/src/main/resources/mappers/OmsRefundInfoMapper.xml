@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ratel.order.mappers.OmsRefundInfoMapper">
+    <resultMap id="omsRefundInfoMap" type="com.ratel.order.api.dtos.OmsRefundInfoDTO">
+    <id column="id" property="id" />
+    <id column="refund_order_id" property="refundOrderId" />
+    <id column="refund_amt" property="refundAmt" />
+    <id column="refund_sn" property="refundSn" />
+    <id column="refund_status" property="refundStatus" />
+    <id column="refund_channel" property="refundChannel" />
+    <id column="refund_items" property="refundItems" />
+    <id column="create_time" property="createTime" />
+    <id column="modify_time" property="modifyTime" />
+    </resultMap>
+
+    <sql id="omsRefundInfoSelectSql">
+    oms.id as id,
+    oms.refund_order_id as refund_order_id,
+    oms.refund_amt as refund_amt,
+    oms.refund_sn as refund_sn,
+    oms.refund_status as refund_status,
+    oms.refund_channel as refund_channel,
+    oms.refund_items as refund_items,
+    oms.create_time as create_time,
+    oms.modify_time as modify_time
+    </sql>
+
+    <select id="pageAllOmsRefundInfos" resultMap="omsRefundInfoMap">
+    select
+    <include refid="omsRefundInfoSelectSql"></include>
+    from oms_refund_info oms
+    ${ew.customSqlSegment}
+    </select>
+</mapper>

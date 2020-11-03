@@ -1,0 +1,8 @@
+dependencies {
+    api project(':ratel-nacos')
+   /* api project(':ratel-commons:ratel-common-core')*/
+    api project(':ratel-commons:ratel-common-db')
+    api project(':ratel-commons:ratel-common-feign')
+    api group: 'com.baomidou', name: 'mybatis-plus', version: mybatisPlusVerison
+    api group: 'com.baomidou', name: 'mybatis-plus-extension', version: mybatisPlusVerison
+}

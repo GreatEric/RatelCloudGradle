@@ -1,0 +1,19 @@
+{
+  "groups": [
+    {
+      "name": "ratel.debugger",
+      "type": "com.ratel.common.core.properties.DebuggerProperties",
+      "sourceType": "com.ratel.common.core.properties.DebuggerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "ratel.debugger.show-print",
+      "type": "java.lang.Boolean",
+      "description": "是否开启打印",
+      "sourceType": "com.ratel.common.core.properties.DebuggerProperties",
+      "defaultValue": false
+    }
+  ],
+  "hints": []
+}
